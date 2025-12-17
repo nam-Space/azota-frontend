@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Layout, Menu, message, theme } from 'antd';
+import { Layout, Menu, message, Spin, theme } from 'antd';
 
 import styles from './clientLayout.module.scss'
 import HeaderClient from '@/components/Client/Header';
@@ -7,6 +7,7 @@ import SidebarClient from '@/components/Client/Sidebar';
 import { useAppDispatch, useAppSelector } from '@/redux/hooks';
 import { fetchAccount, setRefreshTokenAction } from '@/redux/slice/accountSlide';
 import { useRouter } from 'next/router';
+import { LoadingOutlined } from '@ant-design/icons';
 
 const { Content, Footer } = Layout;
 
@@ -22,7 +23,7 @@ const ClientLayout = ({ children }: ClientLayoutProps) => {
     const dispatch = useAppDispatch()
     const router = useRouter()
 
-    const isRefreshToken = useAppSelector(state => state.account.isRefreshToken);
+    const isLoading = useAppSelector((state) => state.account.isLoading);
     const errorRefreshToken = useAppSelector(state => state.account.errorRefreshToken);
 
     useEffect(() => {
@@ -37,6 +38,12 @@ const ClientLayout = ({ children }: ClientLayoutProps) => {
             router.push('/login');
         }
     }, [errorRefreshToken]);
+
+    if (isLoading) {
+        return (
+            <Spin indicator={<LoadingOutlined style={{ fontSize: 48 }} spin />} fullscreen />
+        )
+    }
 
     return (
         <Layout hasSider >

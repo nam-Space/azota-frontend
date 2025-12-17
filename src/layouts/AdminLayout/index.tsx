@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import {
+    LoadingOutlined,
     MenuFoldOutlined,
     MenuUnfoldOutlined,
     PlusSquareOutlined,
 } from '@ant-design/icons';
-import { Layout, Menu, Dropdown, Space, message, Avatar, Button, Popover } from 'antd';
+import { Layout, Menu, Dropdown, Space, message, Avatar, Button, Popover, Spin } from 'antd';
 import { useAppDispatch, useAppSelector } from '@/redux/hooks';
 import { isMobile } from 'react-device-detect';
 import type { MenuProps } from 'antd';
@@ -34,6 +35,7 @@ const AdminLayout = ({ children }: any) => {
     const [openPopoverLanguage, setOpenPopoverLanguage] = useState(false)
     const [collapsed, setCollapsed] = useState(false);
     const [activeMenu, setActiveMenu] = useState('');
+    const isLoading = useAppSelector((state) => state.account.isLoading);
     const user = useAppSelector(state => state.account.user);
     const permissions = useAppSelector(state => state.account.user.permissions);
 
@@ -41,7 +43,6 @@ const AdminLayout = ({ children }: any) => {
 
     const dispatch = useAppDispatch();
 
-    const isRefreshToken = useAppSelector(state => state.account.isRefreshToken);
     const errorRefreshToken = useAppSelector(state => state.account.errorRefreshToken);
 
 
@@ -225,6 +226,12 @@ const AdminLayout = ({ children }: any) => {
             router.push('/login');
         }
     }, [errorRefreshToken]);
+
+    if (isLoading) {
+        return (
+            <Spin indicator={<LoadingOutlined style={{ fontSize: 48 }} spin />} fullscreen />
+        )
+    }
 
     const handleLogout = async () => {
         const res = await callLogout();

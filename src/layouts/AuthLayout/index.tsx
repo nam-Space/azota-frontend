@@ -4,6 +4,8 @@ import { useAppDispatch, useAppSelector } from '@/redux/hooks';
 import { fetchAccount } from '@/redux/slice/accountSlide';
 import { useRouter } from 'next/router';
 import { VI } from '@/constants/language';
+import { Spin } from 'antd';
+import { LoadingOutlined } from '@ant-design/icons';
 
 
 interface ClientLayoutProps {
@@ -15,7 +17,7 @@ const AuthLayout = ({ children }: ClientLayoutProps) => {
     const dispatch = useAppDispatch()
 
     const { locale } = router
-    // const isAuthenticated = useAppSelector(state => state.account.isAuthenticated);
+    const isLoading = useAppSelector((state) => state.account.isLoading);
     const user = useAppSelector((state) => state.account.user);
 
     useEffect(() => {
@@ -32,6 +34,12 @@ const AuthLayout = ({ children }: ClientLayoutProps) => {
     useEffect(() => {
         dispatch(fetchAccount())
     }, [dispatch])
+
+    if (isLoading) {
+        return (
+            <Spin indicator={<LoadingOutlined style={{ fontSize: 48 }} spin />} fullscreen />
+        )
+    }
 
     return (
         <div>
