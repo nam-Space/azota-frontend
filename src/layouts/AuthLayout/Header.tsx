@@ -19,7 +19,9 @@ const HeaderAuth = () => {
 
     return (
         <div style={{ height: 64, display: 'flex', justifyContent: 'space-between', alignItems: 'center', zIndex: 5, position: 'fixed', top: 0, left: 0, right: 0, padding: '8px 12px' }}>
-            <Image src={logoImg} width={95} height={30} alt='logoImg' />
+            <Link href={'/login'}>
+                <Image src={logoImg} width={95} height={30} alt='logoImg' />
+            </Link>
             <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
                 <Popover
                     content={<>

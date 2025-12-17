@@ -82,6 +82,8 @@ export const accountSlide = createSlice({
             state.user.avatar = action.payload?.avatar;
             state.user.role = action.payload.role;
             state.user.permissions = action.payload.permissions;
+            state.isRefreshToken = false;
+            state.errorRefreshToken = "";
         },
         setLogoutAction: (state, action) => {
             localStorage.removeItem("access_token");
