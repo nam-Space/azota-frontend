@@ -13,38 +13,42 @@ const IGNORE_PREFIXES = [
     "/.well-known",
 ];
 
+// 🔥 Strip locale an toàn (vi | en)
+function normalizePath(pathname: string) {
+    return pathname.replace(/^\/(vi|en)(\/|$)/, "/") || "/";
+}
+
 export function middleware(req: NextRequest) {
     const token = req.cookies.get("refresh_token")?.value;
-    const { pathname, locale } = req.nextUrl;
+    const { pathname } = req.nextUrl;
 
     // ⛔ Ignore internal / asset requests
     if (IGNORE_PREFIXES.some((p) => pathname.startsWith(p))) {
         return NextResponse.next();
     }
 
-    // 🔄 Normalize path (remove locale safely)
-    const localePrefix = locale ? `/${locale}` : "";
-    const normalizedPath =
-        locale && pathname.startsWith(localePrefix)
-            ? pathname.slice(localePrefix.length) || "/"
-            : pathname;
+    const normalizedPath = normalizePath(pathname);
 
     const isPublicPage = PUBLIC_PATHS.some(
         (path) =>
             normalizedPath === path || normalizedPath.startsWith(path + "/")
     );
 
-    // 🚫 Not login → redirect login (bao gồm '/')
+    /**
+     * 🚫 CHƯA LOGIN → redirect login (bao gồm '/')
+     */
     if (!token && !isPublicPage) {
         const url = req.nextUrl.clone();
-        url.pathname = locale ? `/${locale}/login` : "/login";
+        url.pathname = "/login"; // ⛔ KHÔNG gắn locale
         return NextResponse.redirect(url);
     }
 
-    // 🔐 Logged in → block auth pages
+    /**
+     * 🔐 ĐÃ LOGIN → không cho vào auth pages
+     */
     if (token && isPublicPage) {
         const url = req.nextUrl.clone();
-        url.pathname = locale ? `/${locale}` : "/";
+        url.pathname = "/";
         return NextResponse.redirect(url);
     }
 
