@@ -33,12 +33,12 @@ const Login = () => {
             message.success('Đăng nhập tài khoản thành công!');
             // window.location.href = callback ? callback : '/';
             if (locale === VI) {
-                // window.location.href = '/'
-                router.push('/')
+                window.location.href = '/'
+                // router.push('/')
             }
             else {
-                // window.location.href = '/en'
-                router.push('/en')
+                window.location.href = '/en'
+                // router.push('/en')
             }
         } else {
             notification.error({

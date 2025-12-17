@@ -15,10 +15,11 @@ const AuthLayout = ({ children }: ClientLayoutProps) => {
     const dispatch = useAppDispatch()
 
     const { locale } = router
-    const isAuthenticated = useAppSelector(state => state.account.isAuthenticated);
+    // const isAuthenticated = useAppSelector(state => state.account.isAuthenticated);
+    const user = useAppSelector((state) => state.account.user);
 
     useEffect(() => {
-        if (isAuthenticated) {
+        if (user.id) {
             if (locale === VI) {
                 router.push('/');
             }
@@ -26,7 +27,7 @@ const AuthLayout = ({ children }: ClientLayoutProps) => {
                 router.push('/en');
             }
         }
-    }, [isAuthenticated])
+    }, [user, router])
 
     useEffect(() => {
         dispatch(fetchAccount())
