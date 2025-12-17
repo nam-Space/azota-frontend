@@ -78,9 +78,9 @@ const SidebarClient = () => {
             style={{ overflow: 'auto', height: '100vh', position: 'fixed', left: 0, top: 0, bottom: 0, background: theme }}
             collapsed={true}
         >
-            <div className={styles['logo']}>
+            <Link href={'/'} className={styles['logo']}>
                 <Image src={logoImg} width={40} height={40} alt='logoImg' />
-            </div>
+            </Link>
             <div className="demo-logo-vertical" />
             <Menu style={{ background: theme }} theme="dark" mode="inline" onSelect={(e) => setSelectedItem(e.key)} selectedKeys={[selectedItem]} items={menuItems} />
             <Popover

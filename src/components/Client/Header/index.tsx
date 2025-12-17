@@ -47,8 +47,8 @@ const HeaderClient = () => {
 
     return (
         <Header className={styles['header-container']}>
-            <Button type='text' icon={<LeftOutlined />} ><span style={{ fontWeight: 600 }} onClick={handleRouteBack}><FormattedMessage id="header.back" /></span></Button>
-            {/* <p style={{ fontWeight: '600' }}>Màn hình chính</p> */}
+            {/* <Button type='text' icon={<LeftOutlined />} ><span style={{ fontWeight: 600 }} onClick={handleRouteBack}><FormattedMessage id="header.back" /></span></Button> */}
+            <div></div>
             <p style={{ fontWeight: '600' }}>
                 <FormattedMessage id="header.main-menu" />
             </p>
