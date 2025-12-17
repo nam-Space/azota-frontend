@@ -136,6 +136,9 @@ export const accountSlide = createSlice({
                 state.user.avatar = action.payload?.user?.avatar;
                 state.user.role = action?.payload?.user?.role;
                 state.user.permissions = action?.payload?.user?.permissions;
+            } else {
+                state.isAuthenticated = false;
+                state.isLoading = false;
             }
         });
 
