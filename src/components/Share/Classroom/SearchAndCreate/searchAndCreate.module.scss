@@ -1,0 +1,20 @@
+.search-create {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.button-create {
+    background: #68cc00;
+
+    &:hover {
+        background: #68cc00 !important;
+    }
+}

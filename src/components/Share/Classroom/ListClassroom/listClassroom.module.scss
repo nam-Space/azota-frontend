@@ -1,0 +1,35 @@
+.group-container {
+    margin-top: 20px;
+}
+
+.group-item:not(:first-child) {
+    margin-top: 20px;
+}
+
+.group-heading {
+    display: flex;
+    gap: 12px;
+}
+
+.classroom-wrapper {
+    margin-top: 20px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+}
+
+.classroom-item {
+    display: flex;
+    cursor: pointer;
+    gap: 16px;
+    padding: 20px 16px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0px 0px 30px rgba(1, 44, 118, 0.08);
+}
+
+.empty-classroom {
+    margin-top: 20px;
+    padding: 0 28px;
+}

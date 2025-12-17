@@ -1,0 +1,2056 @@
+{
+    "sidebar": {
+        "homepage": "Home screen",
+        "homework": "Homework",
+        "test": "Test",
+        "classroom": "Classroom management",
+        "theme": "Color board"
+    },
+    "header": {
+        "back": "Back",
+        "main-menu": "Home screen",
+        "notifications": {
+            "title": "Notification",
+            "no-info": "There are no announcements yet"
+        },
+        "language": {
+            "vi": "Vietnamese",
+            "en": "English"
+        },
+        "user": {
+            "pop": {
+                "admin-page": "Admin page",
+                "account": "Account",
+                "dark-theme": "Dark mode",
+                "refresh": "Refresh",
+                "logout": "Log out"
+            }
+        }
+    },
+    "homepage": {
+        "homework": "Homework",
+        "test": "Test",
+        "classroom": "Classroom management"
+    },
+    "login": {
+        "title": "Login",
+        "email": {
+            "label": "Email",
+            "placeholder": "Enter email",
+            "required": "Email cannot be empty!"
+        },
+        "password": {
+            "label": "Password",
+            "placeholder": "Enter password",
+            "required": "Password cannot be blank!"
+        },
+        "submit": "Sign in",
+        "or": "Or",
+        "forgot-password": "Forgot password",
+        "no-account": "Don't have an account yet?",
+        "register": "Register"
+    },
+    "register": {
+        "title": "Register",
+        "name": {
+            "label": "Name",
+            "placeholder": "Enter name",
+            "required": "Name cannot be blank!"
+        },
+        "email": {
+            "label": "Email",
+            "placeholder": "Enter email",
+            "required": "Email cannot be empty!"
+        },
+        "password": {
+            "label": "Password",
+            "placeholder": "Enter password",
+            "required": "Password cannot be blank!"
+        },
+        "gender": {
+            "label": "Gender",
+            "placeholder": "Select gender",
+            "required": "Please select gender!",
+            "male": "MALE",
+            "female": "FEMALE",
+            "other": "OTHER"
+        },
+        "submit": "Register",
+        "or": "Or",
+        "have-account": "Already have an account?",
+        "login": "Log in"
+    },
+    "forgot-password": {
+        "title": "Forgot Password",
+        "email": {
+            "label": "Email",
+            "placeholder": "Enter email",
+            "required": "Email cannot be empty!"
+        },
+        "submit": "Submit",
+        "or": "Or",
+        "have-account": "Already have an account?",
+        "login": "Log in"
+    },
+    "reset-password": {
+        "title": "Reset password",
+        "new-password": {
+            "label": "New password",
+            "placeholder": "Enter new password",
+            "required": "Please do not leave blank!"
+        },
+        "re-password": {
+            "label": "Re-enter new password",
+            "placeholder": "Re-enter new password",
+            "required": "Please do not leave blank!"
+        },
+        "submit": "Confirm",
+        "link-unauthorized": "Link is invalid! Please try again"
+    },
+    "profile": {
+        "title": "Account settings",
+        "left-container": {
+            "general": "General",
+            "change-password": "Change password"
+        },
+        "right-container": {
+            "email": {
+                "label": "Email",
+                "placeholder": "Enter email",
+                "required": "Please do not leave blank!"
+            },
+            "name": {
+                "label": "Display name",
+                "placeholder": "Enter display name",
+                "required": "Please do not leave blank!"
+            },
+            "phone": {
+                "label": "Phone number",
+                "placeholder": "Enter phone number"
+            },
+            "birthDay": {
+                "label": "Date of birth",
+                "placeholder": "dd/mm/yyyy"
+            },
+            "gender": {
+                "label": "Gender",
+                "placeholder": "Select gender",
+                "required": "Please select gender!",
+                "male": "Male",
+                "female": "Female",
+                "other": "Other"
+            },
+            "avatar": {
+                "title": "Avatar photo",
+                "upload": "Upload"
+            },
+            "submit": "Update",
+            "cancel": "Cancel"
+        }
+    },
+    "profile-changePassword": {
+        "title": "Account settings",
+        "left-container": {
+            "general": "General",
+            "change-password": "Change password"
+        },
+        "right-container": {
+            "password": {
+                "label": "Old password",
+                "placeholder": "Enter old password",
+                "required": "Please do not leave blank!"
+            },
+            "new-password": {
+                "label": "New password",
+                "placeholder": "Enter new password",
+                "required": "Please do not leave blank!"
+            },
+            "renew-password": {
+                "label": "Re-enter new password",
+                "placeholder": "Re-enter new password",
+                "required": "Please do not leave blank!"
+            },
+            "submit": "Confirm",
+            "cancel": "Cancel"
+        }
+    },
+    "homework": {
+        "search": {
+            "placeholder": "Search by classroom name",
+            "search": "Search"
+        },
+        "create": {
+            "title": "Create homework",
+            "modal": {
+                "title": "Create new assignment",
+                "option-1": "Compose your own homeworks",
+                "option-2": "Create new with file",
+                "cancel": "Cancel",
+                "submit": "Create new"
+            }
+        },
+        "recommend": "Recommended",
+        "createdAt": "Created date:",
+        "duration": "Submission time:",
+        "minute": "minute",
+        "all": "All",
+        "view-all": "View all"
+    },
+    "homework-add": {
+        "add-question-answer": {
+            "title": "Tạo câu hỏi",
+            "question": "Câu",
+            "table": {
+                "title": "Danh sách đáp án",
+                "col": {
+                    "answer": "Đáp án",
+                    "status": "Trạng thái",
+                    "action": "Hành động"
+                }
+            },
+            "create-answer": {
+                "title": "Thêm mới đáp án",
+                "correct-answer": "Đáp án đúng"
+            },
+            "create-question": "Thêm câu hỏi mới",
+            "cancel": "Hủy",
+            "submit": "Tạo đề"
+        },
+        "setting": {
+            "title": "Cấu hình chung",
+            "name": {
+                "title": "Tên",
+                "placeholder": "Nhập tên"
+            },
+            "time-start": {
+                "title": "Ngày bắt đầu",
+                "placeholder": "dd/mm/yyyy"
+            },
+            "time-end": {
+                "title": "Ngày kết thúc",
+                "placeholder": "dd/mm/yyyy"
+            },
+            "grade": {
+                "title": "Khối học",
+                "placeholder": "Chọn khối học"
+            },
+            "subject": {
+                "title": "Môn học",
+                "placeholder": "Chọn môn học"
+            },
+            "random-reserve-question": "Đảo câu hỏi",
+            "random-reserve-answer": "Đảo đáp án",
+            "duration": {
+                "title": "Thời gian làm bài",
+                "input": {
+                    "sub-title": "phút",
+                    "placeholder": "Nhập thời gian"
+                }
+            },
+            "classroom": {
+                "title": "Chọn lớp học",
+                "placeholder": "Vui lòng chọn lớp học"
+            },
+            "description": {
+                "title": "Mô tả",
+                "placeholder": "Vui lòng điền mô tả"
+            },
+            "cancel": "Hủy",
+            "submit": "Lưu"
+        }
+    },
+    "classroomDetail-exerciseDetail": {
+        "left-container": {
+            "created-at": "Created date:",
+            "time-start": "Start time:",
+            "duration": {
+                "title": "Test time:",
+                "sub-title": "phút"
+            },
+            "time-end": "Latest start time:",
+            "menu": "Menu",
+            "setting": "Settings",
+            "delete": {
+                "title": "Delete",
+                "modal": {
+                    "title": "Delete homework from class",
+                    "description": "Are you sure you want to delete the homework from the class?",
+                    "cancel": "Cancel",
+                    "submit": "Delete"
+                }
+            },
+            "assign-to": "Assign to",
+            "description": "Description",
+            "view-question-answer": "View question and answer",
+            "view-detail": "View details",
+            "modal": {
+                "title": "See detailed questions and answers",
+                "question": "Question",
+                "answer": "Answer:"
+            }
+        },
+        "right-container": {
+            "classroom": "Class:",
+            "table": {
+                "title": "List of students submitting homeworks",
+                "col": {
+                    "no": "No",
+                    "name": "Name",
+                    "max-score": "Highest score",
+                    "created-at": "Submission time",
+                    "duration": "Total time",
+                    "action": "Action"
+                },
+                "row": {
+                    "status": {
+                        "unsubmitted": "Unsubmitted",
+                        "submitted": "Submitted",
+                        "waiting": "Waiting"
+                    },
+                    "action": {
+                        "view-history": "View homework history"
+                    }
+                }
+            }
+        }
+    },
+    "studentDetail-classroomExerciseDetail": {
+        "classroom": "Class:",
+        "created-at": "Created date:",
+        "time-start": "Start time:",
+        "duration": {
+            "title": "Test time:",
+            "sub-title": "minutes"
+        },
+        "time-end": "Latest start time:",
+        "profile": {
+            "no-info": "No information yet",
+            "create": {
+                "title": "More",
+                "modal": {
+                    "title": "Add new student",
+                    "email": {
+                        "title": "Email",
+                        "placeholder": "Enter email"
+                    },
+                    "name": {
+                        "title": "Display name",
+                        "placeholder": "Enter display name",
+                        "required": "Please do not leave blank"
+                    },
+                    "phone": {
+                        "title": "Phone number",
+                        "placeholder": "Enter phone number"
+                    },
+                    "birthDay": {
+                        "title": "Date of birth",
+                        "placeholder": "dd/mm/yyyy"
+                    },
+                    "gender": {
+                        "title": "Gender",
+                        "male": "Male",
+                        "female": "Female",
+                        "other": "Other",
+                        "placeholder": "Please select gender",
+                        "required": "Please select gender!"
+                    },
+                    "avatar": {
+                        "title": "Avatar photo",
+                        "upload": "Upload"
+                    },
+                    "cancel": "Cancel",
+                    "submit": "Create new"
+                }
+            },
+            "edit": {
+                "title": "Edit",
+                "modal": {
+                    "title": "Student Update",
+                    "email": {
+                        "title": "Email",
+                        "placeholder": "Enter email"
+                    },
+                    "name": {
+                        "title": "Display name",
+                        "placeholder": "Enter display name",
+                        "required": "Please do not leave blank"
+                    },
+                    "phone": {
+                        "title": "Phone number",
+                        "placeholder": "Enter phone number"
+                    },
+                    "birthDay": {
+                        "title": "Date of birth",
+                        "placeholder": "dd/mm/yyyy"
+                    },
+                    "gender": {
+                        "title": "Gender",
+                        "placeholder": "Please select gender",
+                        "required": "Please select gender!"
+                    },
+                    "Avatar": {
+                        "title": "Avatar photo",
+                        "upload": "Upload"
+                    },
+                    "cancel": "Cancel",
+                    "submit": "Update"
+                }
+            },
+            "delete": {
+                "title": "Remove from class",
+                "modal": {
+                    "title": "Confirmation of student removal from class",
+                    "description": "Are you sure you want to remove the student from the class?",
+                    "cancel": "Cancel",
+                    "submit": "Delete"
+                }
+            }
+        },
+        "table": {
+            "title": "List of attempts",
+            "col": {
+                "count": "Times",
+                "score": "Score",
+                "correct-answer": "Number of correct answers",
+                "created-at": "Submission time",
+                "duration": "Total time"
+            }
+        }
+    },
+    "exerciseDetail-setting": {
+        "title": "General configuration",
+        "name": {
+            "label": "Name",
+            "placeholder": "Enter name",
+            "required": "Please do not leave blank"
+        },
+        "time-start": {
+            "label": "Start date",
+            "placeholder": "dd/mm/yyyy",
+            "required": "Please select an issue date"
+        },
+        "time-end": {
+            "label": "End date",
+            "placeholder": "dd/mm/yyyy",
+            "required": "Please select an issue date"
+        },
+        "grade": {
+            "label": "Grade",
+            "placeholder": "Select a grade",
+            "required": "Please select a grade"
+        },
+        "subject": {
+            "label": "Subject",
+            "placeholder": "Select subject",
+            "required": "Please select a subject"
+        },
+        "random-reserve-question": {
+            "label": "Random question",
+            "active": "Activate",
+            "unactive": "Unactive"
+        },
+        "random-reserve-answer": {
+            "label": "Random answer",
+            "active": "Activate",
+            "unactive": "Unactive"
+        },
+        "duration": {
+            "title": "Duration",
+            "input": {
+                "placeholder": "Enter time",
+                "sub-title": "minute",
+                "required": "Please do not leave blank"
+            }
+        },
+        "description": {
+            "label": "Description",
+            "placeholder": "Please fill in a description"
+        },
+        "cancel": "Cancel",
+        "submit": "Save"
+    },
+    "test": {
+        "search": {
+            "placeholder": "Search by class name",
+            "search": "Search"
+        },
+        "create": {
+            "title": "Create test",
+            "modal": {
+                "title": "Create new exam question",
+                "option-1": "Compose your own tests",
+                "option-2": "Create new with file",
+                "cancel": "Cancel",
+                "submit": "Create new"
+            }
+        },
+        "recommend": "Recommend",
+        "createdAt": "Created date:",
+        "duration": "Submission time:",
+        "minute": "minute",
+        "all": "All",
+        "view-all": "View all"
+    },
+    "test-add": {
+        "add-question-answer": {
+            "title": "Tạo câu hỏi",
+            "question": "Câu",
+            "table": {
+                "title": "Danh sách đáp án",
+                "col": {
+                    "answer": "Đáp án",
+                    "status": "Trạng thái",
+                    "action": "Hành động"
+                }
+            },
+            "create-answer": {
+                "title": "Thêm mới đáp án",
+                "correct-answer": "Đáp án đúng"
+            },
+            "create-question": "Thêm câu hỏi mới",
+            "cancel": "Hủy",
+            "submit": "Tạo đề"
+        },
+        "setting": {
+            "title": "Cấu hình chung",
+            "name": {
+                "title": "Tên",
+                "placeholder": "Nhập tên"
+            },
+            "time-start": {
+                "title": "Ngày bắt đầu",
+                "placeholder": "dd/mm/yyyy"
+            },
+            "time-end": {
+                "title": "Ngày kết thúc",
+                "placeholder": "dd/mm/yyyy"
+            },
+            "grade": {
+                "title": "Khối học",
+                "placeholder": "Chọn khối học"
+            },
+            "subject": {
+                "title": "Môn học",
+                "placeholder": "Chọn môn học"
+            },
+            "random-reserve-question": "Đảo câu hỏi",
+            "random-reserve-answer": "Đảo đáp án",
+            "duration": {
+                "title": "Thời gian làm bài",
+                "input": {
+                    "sub-title": "phút",
+                    "placeholder": "Nhập thời gian"
+                }
+            },
+            "classroom": {
+                "title": "Chọn lớp học",
+                "placeholder": "Vui lòng chọn lớp học"
+            },
+            "description": {
+                "title": "Mô tả",
+                "placeholder": "Vui lòng điền mô tả"
+            },
+            "cancel": "Hủy",
+            "submit": "Lưu"
+        }
+    },
+    "classroomDetail-testDetail": {
+        "left-container": {
+            "created-at": "Created date:",
+            "time-start": "Start time:",
+            "duration": {
+                "title": "Test time:",
+                "sub-title": "minutes"
+            },
+            "time-end": "Latest start time:",
+            "menu": "Menu",
+            "setting": "Settings",
+            "statistic": "Statistic",
+            "delete": {
+                "title": "Delete",
+                "modal": {
+                    "title": "Delete test from class",
+                    "description": "Are you sure you want to delete the test from the class?",
+                    "cancel": "Cancel",
+                    "submit": "Delete"
+                }
+            },
+            "assign-to": "Assign to",
+            "description": "Description",
+            "view-question-answer": "View question and answer",
+            "view-detail": "View details",
+            "modal": {
+                "title": "See detailed questions and answers",
+                "question": "Sentence",
+                "answer": "Answer:"
+            }
+        },
+        "right-container": {
+            "classroom": "Class:",
+            "table": {
+                "title": "List of students submitting tests",
+                "col": {
+                    "no": "No",
+                    "name": "Name",
+                    "max-score": "Highest score",
+                    "created-at": "Submission time",
+                    "duration": "Total time to do the test",
+                    "action": "Action"
+                },
+                "row": {
+                    "status": {
+                        "unsubmitted": "Unsubmitted",
+                        "submitted": "Submitted",
+                        "waiting": "Waiting"
+                    },
+                    "action": {
+                        "view-history": "View test history"
+                    }
+                }
+            }
+        }
+    },
+    "testDetail-setting": {
+        "title": "General configuration",
+        "name": {
+            "label": "Name",
+            "placeholder": "Enter name",
+            "required": "Please do not leave blank"
+        },
+        "time-start": {
+            "label": "Start date",
+            "placeholder": "dd/mm/yyyy",
+            "required": "Please select an issue date"
+        },
+        "time-end": {
+            "label": "End date",
+            "placeholder": "dd/mm/yyyy",
+            "required": "Please select an issue date"
+        },
+        "grade": {
+            "label": "Grade",
+            "placeholder": "Select a grade",
+            "required": "Please select a grade"
+        },
+        "subject": {
+            "label": "Subject",
+            "placeholder": "Select subject",
+            "required": "Please select a subject"
+        },
+        "random-reserve-question": {
+            "label": "Random question",
+            "active": "Activate",
+            "unactive": "Unactive"
+        },
+        "random-reserve-answer": {
+            "label": "Random answer",
+            "active": "Activate",
+            "unactive": "Unactive"
+        },
+        "duration": {
+            "title": "Duration",
+            "input": {
+                "placeholder": "Enter time",
+                "sub-title": "minute",
+                "required": "Please do not leave blank"
+            }
+        },
+        "description": {
+            "label": "Description",
+            "placeholder": "Please fill in a description"
+        },
+        "cancel": "Cancel",
+        "submit": "Save"
+    },
+    "classroomDetail-testDetail-statistic": {
+        "basic-statistic": {
+            "title": "Basic statistics",
+            "number-register-testing": "NUMBER OF PEOPLE REGISTERED FOR THE TEST",
+            "number-un-testing": "NUMBER OF PEOPLE NOT TESTED",
+            "total-submit": "TOTAL SUBMIT",
+            "score-average": "AVERAGE SCORE",
+            "number-score-less-5": "NUMBER OF CANDIDATES SCORING < 5",
+            "number-score-greate-equal-5": "NUMBER OF CANDIDATES SCORING >= 5"
+        },
+        "excel-exporting": {
+            "title": "Export statistical data to Excel",
+            "score-spectrum-statistic": "Score spectrum statistics",
+            "question-statistic": "Statistics of correct/incorrect ratio according to the question",
+            "score-statistic": "Scoreboard",
+            "export": "Export Excel file"
+        },
+        "score-spectrum-chart": {
+            "title": "Spectrum chart"
+        },
+        "classroom": {
+            "title": "Class:",
+            "table": {
+                "title": "List of students submitting assignments",
+                "col": {
+                    "no": "No",
+                    "name": "Name",
+                    "max-score": "Score",
+                    "created-at": "Submission time",
+                    "duration": "Total time to do the test",
+                    "action": "Action"
+                },
+                "row": {
+                    "status": {
+                        "unsubmitted": "Unsubmitted",
+                        "submitted": "Submitted",
+                        "waiting": "Waiting"
+                    },
+                    "action": {
+                        "view-history": "View test history"
+                    }
+                }
+            }
+        }
+    },
+    "classroom": {
+        "search": {
+            "title": "Class list",
+            "placeholder": "Search by class name",
+            "search": "Search"
+        },
+        "create": {
+            "title": "Create class",
+            "modal": {
+                "title": "Create new class",
+                "input-classroom": {
+                    "label": "Class name",
+                    "placeholder": "Enter class name",
+                    "required": "Please enter class"
+                },
+                "input-schoolYear": {
+                    "label": "School year",
+                    "placeholder": "Please select a school year",
+                    "required": "Please select a school year"
+                },
+                "group": {
+                    "title": "Select group",
+                    "btn-add": "Add group",
+                    "input-group": {
+                        "placeholder": "Group name"
+                    },
+                    "submit": "Create group"
+                },
+                "cancel": "Cancel",
+                "submit": "Create new"
+            }
+        },
+        "join": {
+            "title": "Join class",
+            "modal": {
+                "title": "Join class",
+                "classroom-token": {
+                    "label": "Class code",
+                    "placeholder": "Enter class code"
+                },
+                "cancel": "Cancel",
+                "submit": "Join"
+            }
+        },
+        "group": {
+            "update": {
+                "title": "Edit",
+                "pop": {
+                    "title": "Group update",
+                    "cancel": "Cancel",
+                    "submit": "Confirm"
+                }
+            },
+            "delete": {
+                "title": "Delete",
+                "pop": {
+                    "title": "Delete group",
+                    "content": "Are you sure you want to delete the group?",
+                    "cancel": "Cancel",
+                    "submit": "Confirm"
+                }
+            }
+        },
+        "classroom": {
+            "update": {
+                "title": "Edit classroom",
+                "modal": {
+                    "title": "Class Update",
+                    "input-classroom": {
+                        "label": "Class name",
+                        "placeholder": "Enter class name",
+                        "required": "Please enter class"
+                    },
+                    "input-schoolYear": {
+                        "label": "School year",
+                        "placeholder": "Please select a school year",
+                        "required": "Please select a school year"
+                    },
+                    "group": {
+                        "title": "Select group",
+                        "btn-add": "Add group",
+                        "input-group": {
+                            "placeholder": "Group name"
+                        },
+                        "submit": "Create group"
+                    },
+                    "cancel": "Cancel",
+                    "submit": "Update"
+                }
+            },
+            "delete": {
+                "title": "Delete classroom",
+                "pop": {
+                    "title": "Delete classroom",
+                    "content": "Are you sure you want to delete the classroom?",
+                    "cancel": "Cancel",
+                    "submit": "Confirm"
+                }
+            },
+            "quantity": "Number:",
+            "schoolYear": "School year:",
+            "no-info": "There are no classes"
+        }
+    },
+    "classroomDetail-student": {
+        "left-container": {
+            "list-student": "List of students",
+            "homework": "Homework",
+            "test": "Test"
+        },
+        "right-container": {
+            "classroom-id": "Classroom code:",
+            "leave-room": {
+                "title": "Leave class",
+                "modal": {
+                    "title": "Leaving the class",
+                    "description": "Are you sure you want to leave class?",
+                    "cancel": "Cancel",
+                    "submit": "Leave the class"
+                }
+            },
+            "table": {
+                "title": "List of students",
+                "col": {
+                    "no": "No",
+                    "name": "Name",
+                    "number-homework": "Homework done",
+                    "number-test": "Test done",
+                    "action": "Action"
+                },
+                "row": {
+                    "homework": "homework",
+                    "test": "test",
+                    "edit": {
+                        "modal": {
+                            "title": "Student Update",
+                            "email": {
+                                "title": "Email",
+                                "placeholder": "Enter email"
+                            },
+                            "name": {
+                                "title": "Display name",
+                                "placeholder": "Enter display name"
+                            },
+                            "phone": {
+                                "title": "Phone number",
+                                "placeholder": "Enter phone number"
+                            },
+                            "birthDay": {
+                                "title": "Date of birth",
+                                "placeholder": "dd/mm/yyyy"
+                            },
+                            "gender": {
+                                "title": "Gender",
+                                "placeholder": "Please select gender"
+                            },
+                            "Avatar": {
+                                "title": "Avatar photo",
+                                "upload": "Upload"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Confirmation of student removal from class",
+                            "description": "Are you sure you want to remove student from this class?",
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "classroomDetail-studentDetail": {
+        "title": "Class details:",
+        "profile": {
+            "no-info": "No information yet",
+            "edit": {
+                "title": "Edit",
+                "modal": {
+                    "title": "Student Update",
+                    "email": {
+                        "title": "Email",
+                        "placeholder": "Enter email"
+                    },
+                    "name": {
+                        "title": "Display name",
+                        "placeholder": "Enter display name"
+                    },
+                    "phone": {
+                        "title": "Phone number",
+                        "placeholder": "Enter phone number"
+                    },
+                    "birthDay": {
+                        "title": "Date of birth",
+                        "placeholder": "dd/mm/yyyy"
+                    },
+                    "gender": {
+                        "title": "Gender",
+                        "placeholder": "Please select gender"
+                    },
+                    "Avatar": {
+                        "title": "Avatar photo",
+                        "upload": "Upload"
+                    },
+                    "cancel": "Cancel",
+                    "submit": "Confirm"
+                }
+            },
+            "delete": {
+                "title": "Remove from class",
+                "modal": {
+                    "title": "Confirmation of student removal from class",
+                    "description": "Are you sure you want to remove the student from the class?",
+                    "cancel": "Cancel",
+                    "submit": "Delete"
+                }
+            }
+        },
+        "list-test": {
+            "title": "List of tests",
+            "created-at": "Created date:",
+            "status": {
+                "unsubmitted": "Unsubmitted",
+                "submitted": "Submitted",
+                "waiting": "Waiting"
+            }
+        },
+        "list-homework": {
+            "title": "List of homeworks",
+            "created-at": "Created date:",
+            "status": {
+                "unsubmitted": "Unsubmitted",
+                "submitted": "Submitted",
+                "waiting": "Waiting"
+            }
+        }
+    },
+    "classroomDetail-exercise": {
+        "left-container": {
+            "list-student": "List of students",
+            "homework": "Assignments",
+            "test": "Test question"
+        },
+        "right-container": {
+            "search": {
+                "placeholder": "Enter keyword",
+                "search": "Search"
+            },
+            "create": {
+                "title": "Create homework",
+                "modal": {
+                    "title": "Create new homework",
+                    "option-1": "Compose your own homeworks",
+                    "option-2": "Create new with file",
+                    "cancel": "Cancel",
+                    "submit": "Create new"
+                }
+            },
+            "title": "List of homeworks",
+            "list-exercise": {
+                "duration": "Submission time:",
+                "sub-duration": "minutes"
+            }
+        }
+    },
+    "classroomDetail-test": {
+        "left-container": {
+            "list-student": "List of students",
+            "homework": "Assignments",
+            "test": "Test question"
+        },
+        "right-container": {
+            "search": {
+                "placeholder": "Enter keyword",
+                "search": "Search"
+            },
+            "create": {
+                "title": "Create test",
+                "modal": {
+                    "title": "Create new exam question",
+                    "option-1": "Compose your own tests",
+                    "option-2": "Create new with file",
+                    "cancel": "Cancel",
+                    "submit": "Create new"
+                }
+            },
+            "title": "List of tests",
+            "list-test": {
+                "duration": "Submission time:",
+                "sub-duration": "minutes"
+            }
+        }
+    },
+    "student-classroomDetail-exerciseDetail": {
+        "duration": {
+            "title": "Test time",
+            "sub-title": "minutes"
+        },
+        "time-start": "Start time",
+        "time-end": "Latest start time",
+        "total-question": "Number of questions",
+        "type": {
+            "title": "Title type",
+            "sub-title": "multiple choice"
+        },
+        "total-submit": {
+            "title": "Number of attempts",
+            "sub-title": "turn"
+        },
+        "btn-start": "Start",
+        "view-history": "View history",
+        "history": {
+            "title": "Your history",
+            "score": "Your score:",
+            "duration": "Test time:",
+            "number-correct": "Correct number",
+            "number-question": "Total number of questions in the topic",
+            "view-detail": "View details",
+            "no-info": "There is no data about your history"
+        }
+    },
+    "student-classroomDetail-testDetail": {
+        "duration": {
+            "title": "Test time",
+            "sub-title": "minutes"
+        },
+        "time-start": "Start time",
+        "time-end": "Latest start time",
+        "total-question": "Number of questions",
+        "type": {
+            "title": "Title type",
+            "sub-title": "multiple choice"
+        },
+        "total-submit": {
+            "title": "Number of attempts",
+            "sub-title": "turn"
+        },
+        "btn-start": "Start",
+        "view-history": "View history",
+        "history": {
+            "title": "Your history",
+            "score": "Your score:",
+            "duration": "Test time:",
+            "number-correct": "Correct number",
+            "number-question": "Total number of questions in the topic",
+            "view-detail": "View details",
+            "no-info": "There is no data about your history"
+        }
+    },
+    "student-classroomDetail-exerciseDetail-startingDetail": {
+        "left-container": {
+            "question": "Question",
+            "your-answer": "Your answer:"
+        },
+        "right-container": {
+            "title": "List of questions",
+            "time-remaining": "Remaining time:",
+            "submit": {
+                "title": "Submit",
+                "modal": {
+                    "title": "Are you sure you want to submit your homework?",
+                    "cancel": "Cancel",
+                    "submit": "Submit"
+                }
+            }
+        }
+    },
+    "student-classroomDetail-testDetail-startingDetail": {
+        "left-container": {
+            "question": "Question",
+            "your-answer": "Your answer:"
+        },
+        "right-container": {
+            "title": "List of questions",
+            "time-remaining": "Remaining time:",
+            "submit": {
+                "title": "Submit",
+                "modal": {
+                    "title": "Are you sure you want to submit your test?",
+                    "cancel": "Cancel",
+                    "submit": "Submit"
+                }
+            }
+        }
+    },
+    "student-historyDetail": {
+        "left-container": {
+            "score": "Score:",
+            "detail-info": "Detail information",
+            "format": {
+                "title": "Quiz:",
+                "sub-title": "question"
+            },
+            "number-correct": "Number of correct questions:",
+            "number-wrong": "Number of wrong questions:"
+        },
+        "right-container": {
+            "question": "Question",
+            "correct-answer": "Correct answer:"
+        }
+    },
+    "admin": {
+        "header": {
+            "welcome": "Welcome",
+            "language": {
+                "vi": "Vietnamese",
+                "en": "English"
+            },
+            "user": {
+                "pop": {
+                    "homepage": "Homepage",
+                    "logout": "Log out"
+                }
+            }
+        },
+        "admin-user": {
+            "table": {
+                "title": "List users",
+                "button-add": "Create",
+                "col": {
+                    "id": "Id",
+                    "name": "Name",
+                    "email": "Email",
+                    "gender": "Gender",
+                    "phone": "Phone",
+                    "birthday": "Date of birth",
+                    "role": "Role",
+                    "created-at": "Created At",
+                    "updated-at": "Updated At",
+                    "action": "Action"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Create new user",
+                            "email": {
+                                "title": "Email",
+                                "placeholder": "Enter email",
+                                "required": "Please do not leave blank"
+                            },
+                            "password": {
+                                "title": "Password",
+                                "placeholder": "Enter password",
+                                "required": "Password cannot be blank"
+                            },
+                            "avatar": {
+                                "title": "Avatar photo",
+                                "upload": "Upload"
+                            },
+                            "birthDay": {
+                                "title": "Date of birth",
+                                "placeholder": "dd/mm/yyyy"
+                            },
+                            "name": {
+                                "title": "Display name",
+                                "placeholder": "Enter display name",
+                                "required": "Please do not leave blank"
+                            },
+                            "phone": {
+                                "title": "Phone number",
+                                "placeholder": "Enter phone number",
+                                "required": "Please do not leave blank"
+                            },
+                            "gender": {
+                                "title": "Gender",
+                                "placeholder": "Select gender",
+                                "required": "Please select gender",
+                                "male": "Male",
+                                "female": "Female",
+                                "other": "Other"
+                            },
+                            "role": {
+                                "title": "Role",
+                                "placeholder": "Choose role",
+                                "required": "Please select a role"
+                            },
+
+                            "cancel": "Cancel",
+                            "submit": "Create new"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Update user",
+                            "email": {
+                                "title": "Email",
+                                "placeholder": "Enter email",
+                                "required": "Please do not leave blank"
+                            },
+                            "password": {
+                                "title": "Password",
+                                "placeholder": "Enter password",
+                                "required": "Password cannot be blank"
+                            },
+                            "avatar": {
+                                "title": "Avatar photo",
+                                "upload": "Upload"
+                            },
+                            "birthDay": {
+                                "title": "Date of birth",
+                                "placeholder": "dd/mm/yyyy"
+                            },
+                            "name": {
+                                "title": "Display name",
+                                "placeholder": "Enter display name",
+                                "required": "Please do not leave blank"
+                            },
+                            "phone": {
+                                "title": "Phone number",
+                                "placeholder": "Enter phone number",
+                                "required": "Please do not leave blank"
+                            },
+                            "gender": {
+                                "title": "Gender",
+                                "placeholder": "Select gender",
+                                "required": "Please select gender",
+                                "male": "Male",
+                                "female": "Female",
+                                "other": "Other"
+                            },
+                            "role": {
+                                "title": "Role",
+                                "placeholder": "Choose role",
+                                "required": "Please select a role"
+                            },
+
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Account deletion confirmation",
+                            "description": "Are you sure you want to delete this account?",
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-group": {
+            "table": {
+                "title": "List Group",
+                "button-add": "Create",
+                "col": {
+                    "id": "Id",
+                    "name": "Name",
+                    "created-at": "Created At",
+                    "updated-at": "Updated At",
+                    "action": "Action"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Create new group",
+                            "name": {
+                                "title": "Group name",
+                                "placeholder": "Enter group",
+                                "required": "Please do not leave blank"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Create new"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Update group",
+                            "name": {
+                                "title": "Group name",
+                                "placeholder": "Enter group",
+                                "required": "Please do not leave blank"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Confirm deletion of group",
+                            "description": "Are you sure you want to delete this group?",
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-school-year": {
+            "table": {
+                "title": "List school years",
+                "button-add": "Create",
+                "col": {
+                    "id": "Id",
+                    "name": "Name",
+                    "created-at": "Created At",
+                    "updated-at": "Updated At",
+                    "action": "Action"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Create a new school year",
+                            "name": {
+                                "title": "School year",
+                                "placeholder": "Enter school year",
+                                "required": "Please do not leave blank"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Create new"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Update school year",
+                            "name": {
+                                "title": "School year",
+                                "placeholder": "Enter school year",
+                                "required": "Please do not leave blank"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Confirmation of deletion of school year",
+                            "description": "Are you sure you want to delete this school year?",
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-classroom": {
+            "table": {
+                "title": "List classroom",
+                "button-add": "Create",
+                "col": {
+                    "id": "Id",
+                    "name": "Classroom name",
+                    "group": "Group",
+                    "school-year": "School year",
+                    "created-at": "Created At",
+                    "updated-at": "Updated At",
+                    "action": "Action"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Create new class",
+                            "name": {
+                                "title": "Class name",
+                                "placeholder": "Enter class",
+                                "required": "Please do not leave blank"
+                            },
+                            "group": {
+                                "title": "Group",
+                                "placeholder": "Select group",
+                                "required": "Please select a group"
+                            },
+                            "school-year": {
+                                "title": "School year",
+                                "placeholder": "Select school year",
+                                "required": "Please select a school year"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Create new"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Update classroom",
+                            "name": {
+                                "title": "Class name",
+                                "placeholder": "Enter class",
+                                "required": "Please do not leave blank"
+                            },
+                            "group": {
+                                "title": "Group",
+                                "placeholder": "Select group",
+                                "required": "Please select a group"
+                            },
+                            "school-year": {
+                                "title": "School year",
+                                "placeholder": "Select school year",
+                                "required": "Please select a school year"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Class deletion confirmation",
+                            "description": "Are you sure you want to delete this class?",
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-user-classroom": {
+            "table": {
+                "title": "List of User Classroom",
+                "button-add": "Create",
+                "col": {
+                    "id": "Id",
+                    "user": "Student",
+                    "classroom": "Classroom",
+                    "created-at": "Created At",
+                    "updated-at": "Updated At",
+                    "action": "Action"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Create new user classroom",
+                            "user": {
+                                "title": "Student",
+                                "placeholder": "Select student",
+                                "required": "Please select a student"
+                            },
+                            "classroom": {
+                                "title": "Classroom",
+                                "placeholder": "Select classroom",
+                                "required": "Please select a classroom"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Create new"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Update user classroom",
+                            "user": {
+                                "title": "Student",
+                                "placeholder": "Select student",
+                                "required": "Please select a student"
+                            },
+                            "classroom": {
+                                "title": "Classroom",
+                                "placeholder": "Select classroom",
+                                "required": "Please select a classroom"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Confirm deletion of user classroom",
+                            "description": "Are you sure you want to delete this user classroom?",
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-exercise": {
+            "table": {
+                "title": "List task",
+                "button-add": "Create",
+                "col": {
+                    "id": "Id",
+                    "name": "Name",
+                    "type": "Type",
+                    "time-start": "Time start",
+                    "time-end": "Time end",
+                    "duration": "Duration",
+                    "random-reserve-question": "Random reserve question",
+                    "random-reserve-answer": "Random reserve answer",
+                    "description": "Description",
+                    "grade": "Grade",
+                    "subject": "Subject",
+                    "created-at": "Created At",
+                    "updated-at": "Updated At",
+                    "action": "Action"
+                },
+                "row": {
+                    "duration": {
+                        "sub-title": "minutes"
+                    },
+                    "add": {
+                        "modal": {
+                            "title": "Create new task",
+                            "name": {
+                                "title": "Name",
+                                "placeholder": "Enter task name",
+                                "required": "Please do not leave blank"
+                            },
+                            "type": {
+                                "title": "Type",
+                                "placeholder": "Select type",
+                                "required": "Please select a type",
+                                "homework": "Homework",
+                                "test": "Test"
+                            },
+                            "time-start": {
+                                "title": "Time start",
+                                "placeholder": "dd/mm/yyyy",
+                                "required": "Please do not leave blank"
+                            },
+                            "time-end": {
+                                "title": "Time end",
+                                "placeholder": "dd/mm/yyyy",
+                                "required": "Please do not leave blank"
+                            },
+                            "duration": {
+                                "title": "Duration",
+                                "placeholder": "Enter duration",
+                                "required": "Please do not leave blank",
+                                "sub-title": "minutes"
+                            },
+                            "random-reserve-question": {
+                                "label": "Reverse question",
+                                "active": "Activate",
+                                "unactive": "Off"
+                            },
+                            "random-reserve-answer": {
+                                "label": "Reverse answer",
+                                "active": "Activate",
+                                "unactive": "Off"
+                            },
+                            "subject": {
+                                "title": "Subject",
+                                "placeholder": "Select subject",
+                                "required": "Please do not leave blank"
+                            },
+                            "grade": {
+                                "title": "Grade",
+                                "placeholder": "Select block",
+                                "required": "Please do not leave blank"
+                            },
+                            "description": {
+                                "title": "Description",
+                                "placeholder": "Please fill in a description"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Create new"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Update task",
+                            "name": {
+                                "title": "Name",
+                                "placeholder": "Enter task name",
+                                "required": "Please do not leave blank"
+                            },
+                            "type": {
+                                "title": "Type",
+                                "placeholder": "Select type",
+                                "required": "Please select a type",
+                                "homework": "Homework",
+                                "test": "Test"
+                            },
+                            "time-start": {
+                                "title": "Time start",
+                                "placeholder": "dd/mm/yyyy",
+                                "required": "Please do not leave blank"
+                            },
+                            "time-end": {
+                                "title": "Time end",
+                                "placeholder": "dd/mm/yyyy",
+                                "required": "Please do not leave blank"
+                            },
+                            "duration": {
+                                "title": "Duration",
+                                "placeholder": "Enter duration",
+                                "required": "Please do not leave blank",
+                                "sub-title": "minutes"
+                            },
+                            "random-reserve-question": {
+                                "label": "Reverse question",
+                                "active": "Activate",
+                                "unactive": "Off"
+                            },
+                            "random-reserve-answer": {
+                                "label": "Reverse answer",
+                                "active": "Activate",
+                                "unactive": "Off"
+                            },
+                            "subject": {
+                                "title": "Subject",
+                                "placeholder": "Select subject",
+                                "required": "Please do not leave blank"
+                            },
+                            "grade": {
+                                "title": "Grade",
+                                "placeholder": "Select block",
+                                "required": "Please do not leave blank"
+                            },
+                            "description": {
+                                "title": "Description",
+                                "placeholder": "Please fill in a description"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Confirm deletion of task",
+                            "description": "Are you sure you want to delete this task?",
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-classroom-exercise": {
+            "table": {
+                "title": "List Classroom Exercise",
+                "button-add": "Create",
+                "col": {
+                    "id": "Id",
+                    "classroom": "Classroom",
+                    "exercise": "Task",
+                    "created-at": "Created At",
+                    "updated-at": "Updated At",
+                    "action": "Action"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Create new classroom exercise",
+                            "classroom": {
+                                "title": "Classroom",
+                                "placeholder": "Select classroom",
+                                "required": "Please select a classroom"
+                            },
+                            "exercise": {
+                                "title": "Task",
+                                "placeholder": "Select task",
+                                "required": "Please select a task"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Create new"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Update classroom exercise",
+                            "classroom": {
+                                "title": "Classroom",
+                                "placeholder": "Select classroom",
+                                "required": "Please select a classroom"
+                            },
+                            "exercise": {
+                                "title": "Task",
+                                "placeholder": "Select task",
+                                "required": "Please select a task"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Classroom exercise deletion confirmation",
+                            "description": "Are you sure you want to delete this classroom exercise?",
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-subject": {
+            "table": {
+                "title": "List subject",
+                "button-add": "Create",
+                "col": {
+                    "id": "Id",
+                    "name": "Subject name",
+                    "created-at": "Created At",
+                    "updated-at": "Updated At",
+                    "action": "Action"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Create new subject",
+                            "name": {
+                                "title": "Subject name",
+                                "placeholder": "Enter subject name",
+                                "required": "Please do not leave blank"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Create new"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Update subject",
+                            "name": {
+                                "title": "Subject name",
+                                "placeholder": "Enter subject name",
+                                "required": "Please do not leave blank"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Confirmation of subject deletion",
+                            "description": "Are you sure you want to delete this subject?",
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-grade": {
+            "table": {
+                "title": "List grade",
+                "button-add": "Add new",
+                "col": {
+                    "id": "Id",
+                    "name": "Grade name",
+                    "created-at": "Created At",
+                    "updated-at": "Updated At",
+                    "action": "Action"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Create new grade",
+                            "name": {
+                                "title": "Grade name",
+                                "placeholder": "Enter grade name",
+                                "required": "Please do not leave blank"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Create new"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Update grade",
+                            "name": {
+                                "title": "Grade name",
+                                "placeholder": "Enter grade name",
+                                "required": "Please do not leave blank"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Grade delete confirmation",
+                            "description": "Are you sure you want to delete this grade?",
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-history": {
+            "table": {
+                "title": "List result history",
+                "col": {
+                    "id": "Id",
+                    "user": "Student",
+                    "score": "Score",
+                    "classroom": "Classroom",
+                    "exercise": "Task",
+                    "type": "Type",
+                    "created-at": "Created At",
+                    "updated-at": "Updated At",
+                    "action": "Action"
+                }
+            }
+        },
+        "admin-answer-history": {
+            "table": {
+                "title": "List of Answer History",
+                "col": {
+                    "id": "Id",
+                    "user": "Student",
+                    "question": "Question",
+                    "answer": "Answer",
+                    "created-at": "Created At",
+                    "updated-at": "Updated At",
+                    "action": "Action"
+                }
+            }
+        },
+        "admin-question": {
+            "table": {
+                "title": "List Question",
+                "button-add": "Create",
+                "col": {
+                    "id": "Id",
+                    "name": "Question name",
+                    "exercise": "Task",
+                    "type": "Type",
+                    "created-at": "Created At",
+                    "updated-at": "Updated At",
+                    "action": "Action"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Create new question",
+                            "name": {
+                                "title": "Question name"
+                            },
+                            "exercise": {
+                                "title": "Task",
+                                "placeholder": "Select task",
+                                "required": "Please select a task"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Create new"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Update question",
+                            "name": {
+                                "title": "Question name"
+                            },
+                            "exercise": {
+                                "title": "Task",
+                                "placeholder": "Select task",
+                                "required": "Please select a task"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Confirm deletion of question",
+                            "description": "Are you sure you want to delete this question?",
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-answer": {
+            "table": {
+                "title": "List Answer",
+                "button-add": "Create",
+                "col": {
+                    "id": "Id",
+                    "name": "Answer name",
+                    "question": "Question",
+                    "created-at": "Created At",
+                    "updated-at": "Updated At",
+                    "action": "Action"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Create new answer",
+                            "name": {
+                                "title": "Answer name"
+                            },
+                            "question": {
+                                "title": "Question",
+                                "placeholder": "Select question",
+                                "required": "Please select a question"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Create new"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Update answer",
+                            "name": {
+                                "title": "Answer name"
+                            },
+                            "question": {
+                                "title": "Question",
+                                "placeholder": "Select question",
+                                "required": "Please select a question"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Confirm deletion of answer",
+                            "description": "Are you sure you want to delete this answer?",
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-role": {
+            "table": {
+                "title": "List Role",
+                "button-add": "Create",
+                "col": {
+                    "id": "Id",
+                    "name": "Role name",
+                    "created-at": "Created At",
+                    "updated-at": "Updated At",
+                    "action": "Action"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Create new role",
+                            "name": {
+                                "title": "Role name",
+                                "placeholder": "Enter role name",
+                                "required": "Please enter role name"
+                            },
+                            "permission": {
+                                "title": "Permission",
+                                "sub-title": "Permission allowed for this role"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Create new"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Update role",
+                            "name": {
+                                "title": "Role name",
+                                "placeholder": "Enter role name",
+                                "required": "Please enter role name"
+                            },
+                            "permission": {
+                                "title": "Permission",
+                                "sub-title": "Permission allowed for this role"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Role deletion confirmation",
+                            "description": "Are you sure you want to delete this role?",
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-permission": {
+            "table": {
+                "title": "List Permission",
+                "button-add": "Create",
+                "col": {
+                    "id": "Id",
+                    "name": "Permission name",
+                    "endpoint": "Endpoint",
+                    "method": "Method",
+                    "module": "Module",
+                    "created-at": "Created At",
+                    "updated-at": "Updated At",
+                    "action": "Action"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Create new permission",
+                            "name": {
+                                "title": "Permission name",
+                                "placeholder": "Enter permission name",
+                                "required": "Please enter a permission name"
+                            },
+                            "endpoint": {
+                                "title": "Endpoint",
+                                "placeholder": "Enter endpoint",
+                                "required": "Please enter an endpoint"
+                            },
+                            "method": {
+                                "title": "Method",
+                                "placeholder": "Choose method",
+                                "required": "Please select method"
+                            },
+                            "module": {
+                                "title": "Module",
+                                "placeholder": "Select module",
+                                "required": "Please select a module"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Create new"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Update permission",
+                            "name": {
+                                "title": "Permission name",
+                                "placeholder": "Enter permission name",
+                                "required": "Please enter a permission name"
+                            },
+                            "endpoint": {
+                                "title": "Endpoint",
+                                "placeholder": "Enter endpoint",
+                                "required": "Please enter an endpoint"
+                            },
+                            "method": {
+                                "title": "Method",
+                                "placeholder": "Choose method",
+                                "required": "Please select method"
+                            },
+                            "module": {
+                                "title": "Module",
+                                "placeholder": "Select module",
+                                "required": "Please select a module"
+                            },
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Confirm deletion of permission",
+                            "description": "Are you sure you want to remove this permission?",
+                            "cancel": "Cancel",
+                            "submit": "Confirm"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

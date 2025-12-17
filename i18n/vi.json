@@ -1,0 +1,2057 @@
+{
+    "sidebar": {
+        "homepage": "Màn hình chính",
+        "homework": "Bài tập",
+        "test": "Đề thi",
+        "classroom": "Quản lý lớp",
+        "theme": "Bảng màu"
+    },
+    "header": {
+        "back": "Quay lại",
+        "main-menu": "Màn hình chính",
+        "notifications": {
+            "title": "Thông báo",
+            "no-info": "Chưa có thông báo nào"
+        },
+        "language": {
+            "vi": "Tiếng Việt",
+            "en": "Tiếng Anh"
+        },
+        "user": {
+            "pop": {
+                "admin-page": "Trang quản trị",
+                "account": "Tài khoản",
+                "dark-theme": "Chế độ tối",
+                "refresh": "Refresh",
+                "logout": "Đăng xuất"
+            }
+        }
+    },
+    "homepage": {
+        "homework": "Bài tập",
+        "test": "Đề thi",
+        "classroom": "Quản lý lớp"
+    },
+    "login": {
+        "title": "Đăng Nhập",
+        "email": {
+            "label": "Email",
+            "placeholder": "Nhập email",
+            "required": "Email không được để trống!"
+        },
+        "password": {
+            "label": "Mật khẩu",
+            "placeholder": "Nhập mật khẩu",
+            "required": "Mật khẩu không được để trống!"
+        },
+        "submit": "Đăng nhập",
+        "or": "Hoặc",
+        "forgot-password": "Quên mật khẩu",
+        "no-account": "Chưa có tài khoản?",
+        "register": "Đăng ký"
+    },
+    "register": {
+        "title": "Đăng Ký",
+        "name": {
+            "label": "Họ tên",
+            "placeholder": "Nhập tên",
+            "required": "Tên không được để trống!"
+        },
+        "email": {
+            "label": "Email",
+            "placeholder": "Nhập email",
+            "required": "Email không được để trống!"
+        },
+        "password": {
+            "label": "Mật khẩu",
+            "placeholder": "Nhập mật khẩu",
+            "required": "Mật khẩu không được để trống!"
+        },
+        "gender": {
+            "label": "Giới tính",
+            "placeholder": "Chọn giới tính",
+            "required": "Vui lòng chọn giới tính!",
+            "male": "MALE",
+            "female": "FEMALE",
+            "other": "OTHER"
+        },
+        "submit": "Đăng ký",
+        "or": "Hoặc",
+        "have-account": "Đã có tài khoản?",
+        "login": "Đăng nhập"
+    },
+    "forgot-password": {
+        "title": "Quên Mật Khẩu",
+        "email": {
+            "label": "Email",
+            "placeholder": "Nhập email",
+            "required": "Email không được để trống!"
+        },
+        "submit": "Gửi",
+        "or": "Hoặc",
+        "have-account": "Đã có tài khoản?",
+        "login": "Đăng nhập"
+    },
+    "reset-password": {
+        "title": "Đặt lại mật khẩu",
+        "new-password": {
+            "label": "Mật khẩu mới",
+            "placeholder": "Nhập mật khẩu mới",
+            "required": "Vui lòng không bỏ trống!"
+        },
+        "re-password": {
+            "label": "Nhập lại mật khẩu mới",
+            "placeholder": "Nhập lại mật khẩu mới",
+            "required": "Vui lòng không bỏ trống!"
+        },
+        "submit": "Xác nhận",
+        "link-unauthorized": "Link không hợp lệ! Xin vui lòng thử lại"
+    },
+    "profile": {
+        "title": "Cài đặt tài khoản",
+        "left-container": {
+            "general": "Chung",
+            "change-password": "Đổi mật khẩu"
+        },
+        "right-container": {
+            "email": {
+                "label": "Email",
+                "placeholder": "Nhập email",
+                "required": "Vui lòng không bỏ trống!"
+            },
+            "name": {
+                "label": "Tên hiển thị",
+                "placeholder": "Nhập tên hiển thị",
+                "required": "Vui lòng không bỏ trống!"
+            },
+            "phone": {
+                "label": "SĐT",
+                "placeholder": "Nhập SĐT"
+            },
+            "birthDay": {
+                "label": "Ngày sinh",
+                "placeholder": "dd/mm/yyyy"
+            },
+            "gender": {
+                "label": "Giới Tính",
+                "placeholder": "Chọn giới tính",
+                "required": "Vui lòng chọn giới tính!",
+                "male": "Nam",
+                "female": "Nữ",
+                "other": "Khác"
+            },
+            "avatar": {
+                "title": "Ảnh đại diện",
+                "upload": "Tải lên"
+            },
+            "submit": "Cập nhật",
+            "cancel": "Hủy"
+        }
+    },
+    "profile-changePassword": {
+        "title": "Cài đặt tài khoản",
+        "left-container": {
+            "general": "Chung",
+            "change-password": "Đổi mật khẩu"
+        },
+        "right-container": {
+            "password": {
+                "label": "Mật khẩu cũ",
+                "placeholder": "Nhập mật khẩu cũ",
+                "required": "Vui lòng không bỏ trống!"
+            },
+            "new-password": {
+                "label": "Mật khẩu mới",
+                "placeholder": "Nhập mật khẩu mới",
+                "required": "Vui lòng không bỏ trống!"
+            },
+            "renew-password": {
+                "label": "Nhập lại mật khẩu mới",
+                "placeholder": "Nhập lại mật khẩu mới",
+                "required": "Vui lòng không bỏ trống!"
+            },
+            "submit": "Xác nhận",
+            "cancel": "Hủy"
+        }
+    },
+    "homework": {
+        "search": {
+            "placeholder": "Tìm kiếm theo tên lớp",
+            "search": "Tìm kiếm"
+        },
+        "create": {
+            "title": "Tạo bài tập",
+            "modal": {
+                "title": "Tạo mới bài tập",
+                "option-1": "Tự soạn bài tập",
+                "option-2": "Tạo mới bằng file",
+                "cancel": "Hủy",
+                "submit": "Tạo mới"
+            }
+        },
+        "recommend": "Được đề xuất",
+        "createdAt": "Ngày tạo:",
+        "duration": "Thời gian nộp bài:",
+        "minute": "phút",
+        "all": "Tất cả",
+        "view-all": "Xem tất cả"
+    },
+    "homework-add": {
+        "add-question-answer": {
+            "title": "Tạo câu hỏi",
+            "question": "Câu",
+            "table": {
+                "title": "Danh sách đáp án",
+                "col": {
+                    "answer": "Đáp án",
+                    "status": "Trạng thái",
+                    "action": "Hành động"
+                }
+            },
+            "create-answer": {
+                "title": "Thêm mới đáp án",
+                "correct-answer": "Đáp án đúng"
+            },
+            "create-question": "Thêm câu hỏi mới",
+            "cancel": "Hủy",
+            "submit": "Tạo đề"
+        },
+        "setting": {
+            "title": "Cấu hình chung",
+            "name": {
+                "title": "Tên",
+                "placeholder": "Nhập tên"
+            },
+            "time-start": {
+                "title": "Ngày bắt đầu",
+                "placeholder": "dd/mm/yyyy"
+            },
+            "time-end": {
+                "title": "Ngày kết thúc",
+                "placeholder": "dd/mm/yyyy"
+            },
+            "grade": {
+                "title": "Khối học",
+                "placeholder": "Chọn khối học"
+            },
+            "subject": {
+                "title": "Môn học",
+                "placeholder": "Chọn môn học"
+            },
+            "random-reserve-question": "Đảo câu hỏi",
+            "random-reserve-answer": "Đảo đáp án",
+            "duration": {
+                "title": "Thời gian làm bài",
+                "input": {
+                    "sub-title": "phút",
+                    "placeholder": "Nhập thời gian"
+                }
+            },
+            "classroom": {
+                "title": "Chọn lớp học",
+                "placeholder": "Vui lòng chọn lớp học"
+            },
+            "description": {
+                "title": "Mô tả",
+                "placeholder": "Vui lòng điền mô tả"
+            },
+            "cancel": "Hủy",
+            "submit": "Lưu"
+        }
+    },
+    "classroomDetail-exerciseDetail": {
+        "left-container": {
+            "created-at": "Ngày tạo:",
+            "time-start": "Thời gian bắt đầu:",
+            "duration": {
+                "title": "Thời gian làm bài:",
+                "sub-title": "phút"
+            },
+            "time-end": "Thời gian bắt đầu muộn nhất:",
+            "menu": "Menu",
+            "setting": "Cài đặt",
+            "delete": {
+                "title": "Xóa",
+                "modal": {
+                    "title": "Xóa bài tập khỏi lớp",
+                    "description": "Bạn có chắc chắn muốn xóa bài tập khỏi lớp không?",
+                    "cancel": "Hủy",
+                    "submit": "Xóa"
+                }
+            },
+            "assign-to": "Giao cho",
+            "description": "Mô tả",
+            "view-question-answer": "Xem câu hỏi và đáp án",
+            "view-detail": "Xem chi tiết",
+            "modal": {
+                "title": "Xem chi tiết câu hỏi và đáp án",
+                "question": "Câu",
+                "answer": "Đáp án:"
+            }
+        },
+        "right-container": {
+            "classroom": "Lớp:",
+            "table": {
+                "title": "Danh sách học sinh nộp bài",
+                "col": {
+                    "no": "STT",
+                    "name": "Tên",
+                    "max-score": "Điểm cao nhất",
+                    "created-at": "Thời điểm nộp bài",
+                    "duration": "Tổng thời gian làm bài",
+                    "action": "Hành động"
+                },
+                "row": {
+                    "status": {
+                        "unsubmitted": "Không nộp bài",
+                        "submitted": "Đã nộp bài",
+                        "waiting": "Đang chờ"
+                    },
+                    "action": {
+                        "view-history": "Xem lịch sử làm bài"
+                    }
+                }
+            }
+        }
+    },
+    "studentDetail-classroomExerciseDetail": {
+        "classroom": "Lớp:",
+        "created-at": "Ngày tạo:",
+        "time-start": "Thời gian bắt đầu:",
+        "duration": {
+            "title": "Thời gian làm bài:",
+            "sub-title": "phút"
+        },
+        "time-end": "Thời gian bắt đầu muộn nhất:",
+        "profile": {
+            "no-info": "Chưa có thông tin",
+            "create": {
+                "title": "Thêm",
+                "modal": {
+                    "title": "Thêm mới học sinh",
+                    "email": {
+                        "title": "Email",
+                        "placeholder": "Nhập email"
+                    },
+                    "name": {
+                        "title": "Tên hiển thị",
+                        "placeholder": "Nhập tên hiển thị",
+                        "required": "Vui lòng không bỏ trống"
+                    },
+                    "phone": {
+                        "title": "SĐT",
+                        "placeholder": "Nhập SĐT"
+                    },
+                    "birthDay": {
+                        "title": "Ngày sinh",
+                        "placeholder": "dd/mm/yyyy"
+                    },
+                    "gender": {
+                        "title": "Giới Tính",
+                        "male": "Nam",
+                        "female": "Nữ",
+                        "other": "Khác",
+                        "placeholder": "Vui lòng chọn giới tính",
+                        "required": "Vui lòng chọn giới tính!"
+                    },
+                    "avatar": {
+                        "title": "Ảnh đại diện",
+                        "upload": "Tải lên"
+                    },
+                    "cancel": "Hủy",
+                    "submit": "Tạo mới"
+                }
+            },
+            "edit": {
+                "title": "Sửa",
+                "modal": {
+                    "title": "Cập nhật học sinh",
+                    "email": {
+                        "title": "Email",
+                        "placeholder": "Nhập email"
+                    },
+                    "name": {
+                        "title": "Tên hiển thị",
+                        "placeholder": "Nhập tên hiển thị",
+                        "required": "Vui lòng không bỏ trống"
+                    },
+                    "phone": {
+                        "title": "SĐT",
+                        "placeholder": "Nhập SĐT"
+                    },
+                    "birthDay": {
+                        "title": "Ngày sinh",
+                        "placeholder": "dd/mm/yyyy"
+                    },
+                    "gender": {
+                        "title": "Giới Tính",
+                        "placeholder": "Vui lòng chọn giới tính",
+                        "required": "Vui lòng chọn giới tính!"
+                    },
+                    "avatar": {
+                        "title": "Ảnh đại diện",
+                        "upload": "Tải lên"
+                    },
+                    "cancel": "Hủy",
+                    "submit": "Cập nhật"
+                }
+            },
+            "delete": {
+                "title": "Xóa khỏi lớp",
+                "modal": {
+                    "title": "Xác nhận xóa học sinh khỏi lớp",
+                    "description": "Bạn có chắc chắn muốn xóa học sinh khỏi lớp không?",
+                    "cancel": "Hủy",
+                    "submit": "Xóa"
+                }
+            }
+        },
+        "table": {
+            "title": "Danh sách các lần làm bài",
+            "col": {
+                "count": "Lần",
+                "score": "Điểm",
+                "correct-answer": "Số câu đúng",
+                "created-at": "Thời điểm nộp bài",
+                "duration": "Tổng thời gian làm bài"
+            }
+        }
+    },
+    "exerciseDetail-setting": {
+        "title": "Cấu hình chung",
+        "name": {
+            "label": "Tên",
+            "placeholder": "Nhập tên",
+            "required": "Vui lòng không bỏ trống"
+        },
+        "time-start": {
+            "label": "Ngày bắt đầu",
+            "placeholder": "dd/mm/yyyy",
+            "required": "Vui lòng chọn ngày cấp"
+        },
+        "time-end": {
+            "label": "Ngày kết thúc",
+            "placeholder": "dd/mm/yyyy",
+            "required": "Vui lòng chọn ngày cấp"
+        },
+        "grade": {
+            "label": "Khối học",
+            "placeholder": "Chọn khối học",
+            "required": "Vui lòng chọn khối học"
+        },
+        "subject": {
+            "label": "Môn học",
+            "placeholder": "Chọn môn học",
+            "required": "Vui lòng chọn môn học"
+        },
+        "random-reserve-question": {
+            "label": "Đảo câu hỏi",
+            "active": "Kích hoạt",
+            "unactive": "Tắt"
+        },
+        "random-reserve-answer": {
+            "label": "Đảo đáp án",
+            "active": "Kích hoạt",
+            "unactive": "Tắt"
+        },
+        "duration": {
+            "title": "Thời gian làm bài",
+            "input": {
+                "placeholder": "Nhập thời gian",
+                "sub-title": "phút",
+                "required": "Vui lòng không bỏ trống"
+            }
+        },
+        "description": {
+            "label": "Mô tả",
+            "placeholder": "Vui lòng điền mô tả"
+        },
+        "cancel": "Hủy",
+        "submit": "Lưu"
+    },
+    "test": {
+        "search": {
+            "placeholder": "Tìm kiếm theo tên lớp",
+            "search": "Tìm kiếm"
+        },
+        "create": {
+            "title": "Tạo đề thi",
+            "modal": {
+                "title": "Tạo mới đề thi",
+                "option-1": "Tự soạn đề thi",
+                "option-2": "Tạo mới bằng file",
+                "cancel": "Hủy",
+                "submit": "Tạo mới"
+            }
+        },
+        "recommend": "Được đề xuất",
+        "createdAt": "Ngày tạo:",
+        "duration": "Thời gian nộp bài:",
+        "minute": "phút",
+        "all": "Tất cả",
+        "view-all": "Xem tất cả"
+    },
+    "test-add": {
+        "add-question-answer": {
+            "title": "Tạo câu hỏi",
+            "question": "Câu",
+            "table": {
+                "title": "Danh sách đáp án",
+                "col": {
+                    "answer": "Đáp án",
+                    "status": "Trạng thái",
+                    "action": "Hành động"
+                }
+            },
+            "create-answer": {
+                "title": "Thêm mới đáp án",
+                "correct-answer": "Đáp án đúng"
+            },
+            "create-question": "Thêm câu hỏi mới",
+            "cancel": "Hủy",
+            "submit": "Tạo đề"
+        },
+        "setting": {
+            "title": "Cấu hình chung",
+            "name": {
+                "title": "Tên",
+                "placeholder": "Nhập tên"
+            },
+            "time-start": {
+                "title": "Ngày bắt đầu",
+                "placeholder": "dd/mm/yyyy"
+            },
+            "time-end": {
+                "title": "Ngày kết thúc",
+                "placeholder": "dd/mm/yyyy"
+            },
+            "grade": {
+                "title": "Khối học",
+                "placeholder": "Chọn khối học"
+            },
+            "subject": {
+                "title": "Môn học",
+                "placeholder": "Chọn môn học"
+            },
+            "random-reserve-question": "Đảo câu hỏi",
+            "random-reserve-answer": "Đảo đáp án",
+            "duration": {
+                "title": "Thời gian làm bài",
+                "input": {
+                    "sub-title": "phút",
+                    "placeholder": "Nhập thời gian"
+                }
+            },
+            "classroom": {
+                "title": "Chọn lớp học",
+                "placeholder": "Vui lòng chọn lớp học"
+            },
+            "description": {
+                "title": "Mô tả",
+                "placeholder": "Vui lòng điền mô tả"
+            },
+            "cancel": "Hủy",
+            "submit": "Lưu"
+        }
+    },
+    "classroomDetail-testDetail": {
+        "left-container": {
+            "created-at": "Ngày tạo:",
+            "time-start": "Thời gian bắt đầu:",
+            "duration": {
+                "title": "Thời gian làm bài:",
+                "sub-title": "phút"
+            },
+            "time-end": "Thời gian bắt đầu muộn nhất:",
+            "menu": "Menu",
+            "setting": "Cài đặt",
+            "statistic": "Thống kê",
+            "delete": {
+                "title": "Xóa",
+                "modal": {
+                    "title": "Xóa bài tập khỏi lớp",
+                    "description": "Bạn có chắc chắn muốn xóa bài tập khỏi lớp không?",
+                    "cancel": "Hủy",
+                    "submit": "Xóa"
+                }
+            },
+            "assign-to": "Giao cho",
+            "description": "Mô tả",
+            "view-question-answer": "Xem câu hỏi và đáp án",
+            "view-detail": "Xem chi tiết",
+            "modal": {
+                "title": "Xem chi tiết câu hỏi và đáp án",
+                "question": "Câu",
+                "answer": "Đáp án:"
+            }
+        },
+        "right-container": {
+            "classroom": "Lớp:",
+            "table": {
+                "title": "Danh sách học sinh nộp bài",
+                "col": {
+                    "no": "STT",
+                    "name": "Tên",
+                    "max-score": "Điểm cao nhất",
+                    "created-at": "Thời điểm nộp bài",
+                    "duration": "Tổng thời gian làm bài",
+                    "action": "Hành động"
+                },
+                "row": {
+                    "status": {
+                        "unsubmitted": "Không nộp bài",
+                        "submitted": "Đã nộp bài",
+                        "waiting": "Đang chờ"
+                    },
+                    "action": {
+                        "view-history": "Xem lịch sử làm bài"
+                    }
+                }
+            }
+        }
+    },
+    "testDetail-setting": {
+        "title": "Cấu hình chung",
+        "name": {
+            "label": "Tên",
+            "placeholder": "Nhập tên",
+            "required": "Vui lòng không bỏ trống"
+        },
+        "time-start": {
+            "label": "Ngày bắt đầu",
+            "placeholder": "dd/mm/yyyy",
+            "required": "Vui lòng chọn ngày cấp"
+        },
+        "time-end": {
+            "label": "Ngày kết thúc",
+            "placeholder": "dd/mm/yyyy",
+            "required": "Vui lòng chọn ngày cấp"
+        },
+        "grade": {
+            "label": "Khối học",
+            "placeholder": "Chọn khối học",
+            "required": "Vui lòng chọn khối học"
+        },
+        "subject": {
+            "label": "Môn học",
+            "placeholder": "Chọn môn học",
+            "required": "Vui lòng chọn môn học"
+        },
+        "random-reserve-question": {
+            "label": "Đảo câu hỏi",
+            "active": "Kích hoạt",
+            "unactive": "Tắt"
+        },
+        "random-reserve-answer": {
+            "label": "Đảo đáp án",
+            "active": "Kích hoạt",
+            "unactive": "Tắt"
+        },
+        "duration": {
+            "title": "Thời gian làm bài",
+            "input": {
+                "placeholder": "Nhập thời gian",
+                "sub-title": "phút",
+                "required": "Vui lòng không bỏ trống"
+            }
+        },
+        "description": {
+            "label": "Mô tả",
+            "placeholder": "Vui lòng điền mô tả"
+        },
+        "cancel": "Hủy",
+        "submit": "Lưu"
+    },
+    "classroomDetail-testDetail-statistic": {
+        "basic-statistic": {
+            "title": "Chỉ số thống kê cơ bản",
+            "number-register-testing": "SỐ NGƯỜI ĐĂNG KÝ THI",
+            "number-un-testing": "SỐ NGƯỜI CHƯA THI",
+            "total-submit": "TỔNG LƯỢT LÀM",
+            "score-average": "ĐIỂM TRUNG BÌNH",
+            "number-score-less-5": "SỐ THÍ SINH ĐẠT ĐIỂM < 5",
+            "number-score-greate-equal-5": "SỐ THÍ SINH ĐẠT ĐIỂM >= 5"
+        },
+        "excel-exporting": {
+            "title": "Xuất dữ liệu thống kê sang Excel",
+            "score-spectrum-statistic": "Thống kê phổ điểm",
+            "question-statistic": "Thống kê tỉ lệ đúng/sai theo câu hỏi",
+            "score-statistic": "Bảng điểm",
+            "export": "Xuất tập tin Excel"
+        },
+        "score-spectrum-chart": {
+            "title": "Biểu đồ phổ điểm"
+        },
+        "classroom": {
+            "title": "Lớp:",
+            "table": {
+                "title": "Danh sách học sinh nộp bài",
+                "col": {
+                    "no": "STT",
+                    "name": "Tên",
+                    "max-score": "Điểm",
+                    "created-at": "Thời điểm nộp bài",
+                    "duration": "Tổng thời gian làm bài",
+                    "action": "Hành động"
+                },
+                "row": {
+                    "status": {
+                        "unsubmitted": "Unsubmitted",
+                        "submitted": "Submitted",
+                        "waiting": "Waiting"
+                    },
+                    "action": {
+                        "view-history": "Xem lịch sử làm bài"
+                    }
+                }
+            }
+        }
+    },
+    "classroom": {
+        "search": {
+            "title": "Danh sách lớp",
+            "placeholder": "Tìm kiếm theo tên lớp",
+            "search": "Tìm kiếm"
+        },
+        "create": {
+            "title": "Tạo lớp học",
+            "modal": {
+                "title": "Tạo mới lớp học",
+                "input-classroom": {
+                    "label": "Tên lớp",
+                    "placeholder": "Nhập tên lớp",
+                    "required": "Vui lòng nhập lớp học"
+                },
+                "input-schoolYear": {
+                    "label": "Năm học",
+                    "placeholder": "Vui lòng chọn năm học",
+                    "required": "Vui lòng chọn năm học"
+                },
+                "group": {
+                    "title": "Chọn nhóm lớp",
+                    "btn-add": "Thêm nhóm",
+                    "input-group": {
+                        "placeholder": "Tên nhóm"
+                    },
+                    "submit": "Tạo nhóm"
+                },
+                "cancel": "Hủy",
+                "submit": "Tạo mới"
+            }
+        },
+        "join": {
+            "title": "Gia nhập lớp học",
+            "modal": {
+                "title": "Tham gia lớp học",
+                "classroom-token": {
+                    "label": "Mã lớp",
+                    "placeholder": "Nhập mã lớp",
+                    "required": "Vui lòng không bỏ trống"
+                },
+                "cancel": "Hủy",
+                "submit": "Gia nhập"
+            }
+        },
+        "group": {
+            "update": {
+                "title": "Sửa",
+                "pop": {
+                    "title": "Cập nhật nhóm",
+                    "cancel": "Hủy",
+                    "submit": "Xác nhận"
+                }
+            },
+            "delete": {
+                "title": "Xóa",
+                "pop": {
+                    "title": "Xóa nhóm",
+                    "content": "Bạn có chắc chắn muốn xóa nhóm không?",
+                    "cancel": "Hủy",
+                    "submit": "Xác nhận"
+                }
+            }
+        },
+        "classroom": {
+            "update": {
+                "title": "Sửa lớp",
+                "modal": {
+                    "title": "Cập nhật lớp học",
+                    "input-classroom": {
+                        "label": "Tên lớp",
+                        "placeholder": "Nhập tên lớp",
+                        "required": "Vui lòng nhập lớp học"
+                    },
+                    "input-schoolYear": {
+                        "label": "Năm học",
+                        "placeholder": "Vui lòng chọn năm học",
+                        "required": "Vui lòng chọn năm học"
+                    },
+                    "group": {
+                        "title": "Chọn nhóm lớp",
+                        "btn-add": "Thêm nhóm",
+                        "input-group": {
+                            "placeholder": "Tên nhóm"
+                        },
+                        "submit": "Tạo nhóm"
+                    },
+                    "cancel": "Hủy",
+                    "submit": "Cập nhật"
+                }
+            },
+            "delete": {
+                "title": "Xóa lớp",
+                "pop": {
+                    "title": "Xóa lớp",
+                    "content": "Bạn có chắc chắn muốn xóa lớp không?",
+                    "cancel": "Hủy",
+                    "submit": "Xác nhận"
+                }
+            },
+            "quantity": "Sĩ số:",
+            "schoolYear": "Năm học:",
+            "no-info": "Không có lớp nào"
+        }
+    },
+    "classroomDetail-student": {
+        "left-container": {
+            "list-student": "Danh sách học sinh",
+            "homework": "Bài tập",
+            "test": "Đề thi"
+        },
+        "right-container": {
+            "classroom-id": "Mã lớp:",
+            "leave-room": {
+                "title": "Rời khỏi nhóm",
+                "modal": {
+                    "title": "Rời nhóm",
+                    "description": "Bạn có chắc chắn muốn rời khỏi lớp không?",
+                    "cancel": "Hủy",
+                    "submit": "Rời khỏi nhóm"
+                }
+            },
+            "table": {
+                "title": "Danh sách học sinh",
+                "col": {
+                    "no": "STT",
+                    "name": "Tên",
+                    "number-homework": "Bài tập đã làm",
+                    "number-test": "Đề thi đã làm",
+                    "action": "Hành động"
+                },
+                "row": {
+                    "homework": "bài tập",
+                    "test": "đề thi",
+                    "edit": {
+                        "modal": {
+                            "title": "Cập nhật học sinh",
+                            "email": {
+                                "title": "Email",
+                                "placeholder": "Nhập email"
+                            },
+                            "name": {
+                                "title": "Tên hiển thị",
+                                "placeholder": "Nhập tên hiển thị"
+                            },
+                            "phone": {
+                                "title": "SĐT",
+                                "placeholder": "Nhập SĐT"
+                            },
+                            "birthDay": {
+                                "title": "Ngày sinh",
+                                "placeholder": "dd/mm/yyyy"
+                            },
+                            "gender": {
+                                "title": "Giới Tính",
+                                "placeholder": "Vui lòng chọn giới tính"
+                            },
+                            "avatar": {
+                                "title": "Ảnh đại diện",
+                                "upload": "Tải lên"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Xác nhận xóa học sinh khỏi lớp",
+                            "description": "Bạn có chắc chắn muốn xóa học sinh khỏi lớp này?",
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "classroomDetail-studentDetail": {
+        "title": "Thông tin chi tiết trong lớp:",
+        "profile": {
+            "no-info": "Chưa có thông tin",
+            "edit": {
+                "title": "Sửa",
+                "modal": {
+                    "title": "Cập nhật học sinh",
+                    "email": {
+                        "title": "Email",
+                        "placeholder": "Nhập email"
+                    },
+                    "name": {
+                        "title": "Tên hiển thị",
+                        "placeholder": "Nhập tên hiển thị"
+                    },
+                    "phone": {
+                        "title": "SĐT",
+                        "placeholder": "Nhập SĐT"
+                    },
+                    "birthDay": {
+                        "title": "Ngày sinh",
+                        "placeholder": "dd/mm/yyyy"
+                    },
+                    "gender": {
+                        "title": "Giới Tính",
+                        "placeholder": "Vui lòng chọn giới tính"
+                    },
+                    "avatar": {
+                        "title": "Ảnh đại diện",
+                        "upload": "Tải lên"
+                    },
+                    "cancel": "Hủy",
+                    "submit": "Xác nhận"
+                }
+            },
+            "delete": {
+                "title": "Xóa khỏi lớp",
+                "modal": {
+                    "title": "Xác nhận xóa học sinh khỏi lớp",
+                    "description": "Bạn có chắc chắn muốn xóa học sinh khỏi lớp không?",
+                    "cancel": "Hủy",
+                    "submit": "Xóa"
+                }
+            }
+        },
+        "list-test": {
+            "title": "Danh sách đề thi",
+            "created-at": "Ngày tạo:",
+            "status": {
+                "unsubmitted": "Không nộp bài",
+                "submitted": "Đã nộp bài",
+                "waiting": "Đang chờ"
+            }
+        },
+        "list-homework": {
+            "title": "Danh sách bài tập",
+            "created-at": "Ngày tạo:",
+            "status": {
+                "unsubmitted": "Không nộp bài",
+                "submitted": "Đã nộp bài",
+                "waiting": "Đang chờ"
+            }
+        }
+    },
+    "classroomDetail-exercise": {
+        "left-container": {
+            "list-student": "Danh sách học sinh",
+            "homework": "Bài tập",
+            "test": "Đề thi"
+        },
+        "right-container": {
+            "search": {
+                "placeholder": "Nhập từ khóa",
+                "search": "Tìm kiếm"
+            },
+            "create": {
+                "title": "Tạo bài tập",
+                "modal": {
+                    "title": "Tạo mới bài tập",
+                    "option-1": "Tự soạn bài tập",
+                    "option-2": "Tạo mới bằng file",
+                    "cancel": "Hủy",
+                    "submit": "Tạo mới"
+                }
+            },
+            "title": "Danh sách các bài tập đã giao",
+            "list-exercise": {
+                "duration": "Thời gian nộp bài:",
+                "sub-duration": "phút"
+            }
+        }
+    },
+    "classroomDetail-test": {
+        "left-container": {
+            "list-student": "Danh sách học sinh",
+            "homework": "Bài tập",
+            "test": "Đề thi"
+        },
+        "right-container": {
+            "search": {
+                "placeholder": "Nhập từ khóa",
+                "search": "Tìm kiếm"
+            },
+            "create": {
+                "title": "Tạo đề thi",
+                "modal": {
+                    "title": "Tạo mới đề thi",
+                    "option-1": "Tự soạn đề thi",
+                    "option-2": "Tạo mới bằng file",
+                    "cancel": "Hủy",
+                    "submit": "Tạo mới"
+                }
+            },
+            "title": "Danh sách các đề thi đã giao",
+            "list-test": {
+                "duration": "Thời gian nộp bài:",
+                "sub-duration": "phút"
+            }
+        }
+    },
+    "student-classroomDetail-exerciseDetail": {
+        "duration": {
+            "title": "Thời gian làm bài",
+            "sub-title": "phút"
+        },
+        "time-start": "Thời gian bắt đầu",
+        "time-end": "Thời gian bắt đầu muộn nhất",
+        "total-question": "Số lượng câu hỏi",
+        "type": {
+            "title": "Loại đề",
+            "sub-title": "trắc nghiệm"
+        },
+        "total-submit": {
+            "title": "Số lượt làm đề",
+            "sub-title": "lượt"
+        },
+        "btn-start": "Bắt đầu làm bài",
+        "view-history": "Xem lịch sử làm bài",
+        "history": {
+            "title": "Lịch sử làm bài của bạn",
+            "score": "Điểm của bạn:",
+            "duration": "Thời gian làm bài:",
+            "number-correct": "Số lượng đúng",
+            "number-question": "Tổng số câu hỏi trong đề",
+            "view-detail": "Xem chi tiết bài làm",
+            "no-info": "Chưa có dữ liệu về lịch sử làm bài của bạn"
+        }
+    },
+    "student-classroomDetail-testDetail": {
+        "duration": {
+            "title": "Thời gian làm bài",
+            "sub-title": "phút"
+        },
+        "time-start": "Thời gian bắt đầu",
+        "time-end": "Thời gian bắt đầu muộn nhất",
+        "total-question": "Số lượng câu hỏi",
+        "type": {
+            "title": "Loại đề",
+            "sub-title": "trắc nghiệm"
+        },
+        "total-submit": {
+            "title": "Số lượt làm đề",
+            "sub-title": "lượt"
+        },
+        "btn-start": "Bắt đầu làm bài",
+        "view-history": "Xem lịch sử làm bài",
+        "history": {
+            "title": "Lịch sử làm bài của bạn",
+            "score": "Điểm của bạn:",
+            "duration": "Thời gian làm bài:",
+            "number-correct": "Số lượng đúng",
+            "number-question": "Tổng số câu hỏi trong đề",
+            "view-detail": "Xem chi tiết bài làm",
+            "no-info": "Chưa có dữ liệu về lịch sử làm bài của bạn"
+        }
+    },
+    "student-classroomDetail-exerciseDetail-startingDetail": {
+        "left-container": {
+            "question": "Câu",
+            "your-answer": "Đáp án của bạn:"
+        },
+        "right-container": {
+            "title": "Danh sách câu hỏi",
+            "time-remaining": "Thời gian còn lại:",
+            "submit": {
+                "title": "Nộp bài",
+                "modal": {
+                    "title": "Bạn có chắc chắn muốn nộp bài không?",
+                    "cancel": "Hủy",
+                    "submit": "Đồng ý"
+                }
+            }
+        }
+    },
+    "student-classroomDetail-testDetail-startingDetail": {
+        "left-container": {
+            "question": "Câu",
+            "your-answer": "Đáp án của bạn:"
+        },
+        "right-container": {
+            "title": "Danh sách câu hỏi",
+            "time-remaining": "Thời gian còn lại:",
+            "submit": {
+                "title": "Nộp bài",
+                "modal": {
+                    "title": "Bạn có chắc chắn muốn nộp bài không?",
+                    "cancel": "Hủy",
+                    "submit": "Đồng ý"
+                }
+            }
+        }
+    },
+    "student-historyDetail": {
+        "left-container": {
+            "score": "Điểm:",
+            "detail-info": "Thông tin chi tiết",
+            "format": {
+                "title": "Trắc nghiệm:",
+                "sub-title": "câu"
+            },
+            "number-correct": "Số câu đúng:",
+            "number-wrong": "Số câu sai:"
+        },
+        "right-container": {
+            "question": "Câu",
+            "correct-answer": "Đáp án đúng:"
+        }
+    },
+    "admin": {
+        "header": {
+            "welcome": "Xin chào",
+            "language": {
+                "vi": "Tiếng Việt",
+                "en": "Tiếng Anh"
+            },
+            "user": {
+                "pop": {
+                    "homepage": "Trang chủ",
+                    "logout": "Đăng xuất"
+                }
+            }
+        },
+        "admin-user": {
+            "table": {
+                "title": "Danh sách tài khoản",
+                "button-add": "Thêm mới",
+                "col": {
+                    "id": "Id",
+                    "name": "Tên",
+                    "email": "Email",
+                    "gender": "Giới tính",
+                    "phone": "SĐT",
+                    "birthday": "Ngày sinh",
+                    "role": "Vai trò",
+                    "created-at": "Ngày tạo",
+                    "updated-at": "Ngày sửa",
+                    "action": "Hành động"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Tạo mới tài khoản",
+                            "email": {
+                                "title": "Email",
+                                "placeholder": "Nhập email",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "password": {
+                                "title": "Mật khẩu",
+                                "placeholder": "Nhập mật khẩu",
+                                "required": "Mật khẩu không được để trống"
+                            },
+                            "avatar": {
+                                "title": "Ảnh đại diện",
+                                "upload": "Tải lên"
+                            },
+                            "birthDay": {
+                                "title": "Ngày sinh",
+                                "placeholder": "dd/mm/yyyy"
+                            },
+                            "name": {
+                                "title": "Tên hiển thị",
+                                "placeholder": "Nhập tên hiển thị",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "phone": {
+                                "title": "SĐT",
+                                "placeholder": "Nhập SĐT",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "gender": {
+                                "title": "Giới Tính",
+                                "placeholder": "Chọn giới tính",
+                                "required": "Vui lòng chọn giới tính",
+                                "male": "Nam",
+                                "female": "Nữ",
+                                "other": "Khác"
+                            },
+                            "role": {
+                                "title": "Vai trò",
+                                "placeholder": "Chọn vai trò",
+                                "required": "Vui lòng chọn vai trò"
+                            },
+
+                            "cancel": "Hủy",
+                            "submit": "Tạo mới"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Cập nhật tài khoản",
+                            "email": {
+                                "title": "Email",
+                                "placeholder": "Nhập email",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "password": {
+                                "title": "Mật khẩu",
+                                "placeholder": "Nhập mật khẩu",
+                                "required": "Mật khẩu không được để trống"
+                            },
+                            "avatar": {
+                                "title": "Ảnh đại diện",
+                                "upload": "Tải lên"
+                            },
+                            "birthDay": {
+                                "title": "Ngày sinh",
+                                "placeholder": "dd/mm/yyyy"
+                            },
+                            "name": {
+                                "title": "Tên hiển thị",
+                                "placeholder": "Nhập tên hiển thị",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "phone": {
+                                "title": "SĐT",
+                                "placeholder": "Nhập SĐT",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "gender": {
+                                "title": "Giới Tính",
+                                "placeholder": "Vui lòng chọn giới tính",
+                                "required": "Vui lòng chọn giới tính",
+                                "male": "Nam",
+                                "female": "Nữ",
+                                "other": "Khác"
+                            },
+                            "role": {
+                                "title": "Vai trò",
+                                "placeholder": "Chọn vai trò",
+                                "required": "Vui lòng chọn vai trò"
+                            },
+
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Xác nhận xóa tài khoản",
+                            "description": "Bạn có chắc chắn muốn xóa tài khoản này?",
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-group": {
+            "table": {
+                "title": "Danh sách nhóm",
+                "button-add": "Thêm mới",
+                "col": {
+                    "id": "Id",
+                    "name": "Tên",
+                    "created-at": "Ngày tạo",
+                    "updated-at": "Ngày sửa",
+                    "action": "Hành động"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Tạo mới nhóm",
+                            "name": {
+                                "title": "Tên nhóm",
+                                "placeholder": "Nhập nhóm",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Tạo mới"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Cập nhật nhóm",
+                            "name": {
+                                "title": "Tên nhóm",
+                                "placeholder": "Nhập nhóm",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Xác nhận xóa nhóm",
+                            "description": "Bạn có chắc chắn muốn xóa nhóm này?",
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-school-year": {
+            "table": {
+                "title": "Danh sách năm học",
+                "button-add": "Thêm mới",
+                "col": {
+                    "id": "Id",
+                    "name": "Tên năm học",
+                    "created-at": "Ngày tạo",
+                    "updated-at": "Ngày sửa",
+                    "action": "Hành động"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Tạo mới năm học",
+                            "name": {
+                                "title": "Năm học",
+                                "placeholder": "Nhập năm học",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Tạo mới"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Cập nhật năm học",
+                            "name": {
+                                "title": "Năm học",
+                                "placeholder": "Nhập năm học",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Xác nhận xóa năm học",
+                            "description": "Bạn có chắc chắn muốn xóa năm học này?",
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-classroom": {
+            "table": {
+                "title": "Danh sách lớp học",
+                "button-add": "Thêm mới",
+                "col": {
+                    "id": "Id",
+                    "name": "Tên lớp",
+                    "group": "Nhóm",
+                    "school-year": "Năm học",
+                    "created-at": "Ngày tạo",
+                    "updated-at": "Ngày sửa",
+                    "action": "Hành động"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Tạo mới lớp học",
+                            "name": {
+                                "title": "Tên lớp học",
+                                "placeholder": "Nhập lớp học",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "group": {
+                                "title": "Nhóm",
+                                "placeholder": "Chọn nhóm",
+                                "required": "Vui lòng chọn nhóm"
+                            },
+                            "school-year": {
+                                "title": "Năm học",
+                                "placeholder": "Chọn năm học",
+                                "required": "Vui lòng chọn năm học"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Tạo mới"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Cập nhật lớp học",
+                            "name": {
+                                "title": "Tên lớp học",
+                                "placeholder": "Nhập lớp học",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "group": {
+                                "title": "Nhóm",
+                                "placeholder": "Chọn nhóm",
+                                "required": "Vui lòng chọn nhóm"
+                            },
+                            "school-year": {
+                                "title": "Năm học",
+                                "placeholder": "Chọn năm học",
+                                "required": "Vui lòng chọn năm học"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Xác nhận xóa lớp học",
+                            "description": "Bạn có chắc chắn muốn xóa lớp học này?",
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-user-classroom": {
+            "table": {
+                "title": "Danh sách User Classroom",
+                "button-add": "Thêm mới",
+                "col": {
+                    "id": "Id",
+                    "user": "Học sinh",
+                    "classroom": "Lớp học",
+                    "created-at": "Ngày tạo",
+                    "updated-at": "Ngày sửa",
+                    "action": "Hành động"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Tạo mới user classroom",
+                            "user": {
+                                "title": "Học sinh",
+                                "placeholder": "Chọn học sinh",
+                                "required": "Vui lòng chọn học sinh"
+                            },
+                            "classroom": {
+                                "title": "Lớp học",
+                                "placeholder": "Chọn lớp học",
+                                "required": "Vui lòng chọn lớp học"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Tạo mới"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Cập nhật user classroom",
+                            "user": {
+                                "title": "Học sinh",
+                                "placeholder": "Chọn học sinh",
+                                "required": "Vui lòng chọn học sinh"
+                            },
+                            "classroom": {
+                                "title": "Lớp học",
+                                "placeholder": "Chọn lớp học",
+                                "required": "Vui lòng chọn lớp học"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Xác nhận xóa user classroom",
+                            "description": "Bạn có chắc chắn muốn xóa user classroom này?",
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-exercise": {
+            "table": {
+                "title": "Danh sách task",
+                "button-add": "Thêm mới",
+                "col": {
+                    "id": "Id",
+                    "name": "Tên",
+                    "type": "Loại",
+                    "time-start": "Thời gian bắt đầu",
+                    "time-end": "Thời gian kết thúc",
+                    "duration": "Thời gian làm bài",
+                    "random-reserve-question": "Đảo câu hỏi",
+                    "random-reserve-answer": "Đảo đáp án",
+                    "description": "Mô tả",
+                    "grade": "Khối",
+                    "subject": "Môn học",
+                    "created-at": "Ngày tạo",
+                    "updated-at": "Ngày sửa",
+                    "action": "Hành động"
+                },
+                "row": {
+                    "duration": {
+                        "sub-title": "phút"
+                    },
+                    "add": {
+                        "modal": {
+                            "title": "Tạo mới Task",
+                            "name": {
+                                "title": "Tên",
+                                "placeholder": "Nhập tên task",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "type": {
+                                "title": "Loại",
+                                "placeholder": "Chọn loại",
+                                "required": "Vui lòng chọn loại",
+                                "homework": "Bài tập",
+                                "test": "Đề thi"
+                            },
+                            "time-start": {
+                                "title": "Ngày bắt đầu",
+                                "placeholder": "dd/mm/yyyy",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "time-end": {
+                                "title": "Ngày kết thúc",
+                                "placeholder": "dd/mm/yyyy",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "duration": {
+                                "title": "Thời gian làm bài",
+                                "placeholder": "Nhập thời gian",
+                                "required": "Vui lòng không bỏ trống",
+                                "sub-title": "phút"
+                            },
+                            "random-reserve-question": {
+                                "label": "Đảo câu hỏi",
+                                "active": "Kích hoạt",
+                                "unactive": "Tắt"
+                            },
+                            "random-reserve-answer": {
+                                "label": "Đảo đáp án",
+                                "active": "Kích hoạt",
+                                "unactive": "Tắt"
+                            },
+                            "subject": {
+                                "title": "Môn học",
+                                "placeholder": "Chọn môn học",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "grade": {
+                                "title": "Khối",
+                                "placeholder": "Chọn khối",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "description": {
+                                "title": "Mô tả",
+                                "placeholder": "Vui lòng điền mô tả"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Tạo mới"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Cập nhật task",
+                            "name": {
+                                "title": "Tên",
+                                "placeholder": "Nhập tên task",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "type": {
+                                "title": "Loại",
+                                "placeholder": "Chọn loại",
+                                "required": "Vui lòng chọn loại",
+                                "homework": "Bài tập",
+                                "test": "Đề thi"
+                            },
+                            "time-start": {
+                                "title": "Ngày bắt đầu",
+                                "placeholder": "dd/mm/yyyy",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "time-end": {
+                                "title": "Ngày kết thúc",
+                                "placeholder": "dd/mm/yyyy",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "duration": {
+                                "title": "Thời gian làm bài",
+                                "placeholder": "Nhập thời gian",
+                                "required": "Vui lòng không bỏ trống",
+                                "sub-title": "phút"
+                            },
+                            "random-reserve-question": {
+                                "label": "Đảo câu hỏi",
+                                "active": "Kích hoạt",
+                                "unactive": "Tắt"
+                            },
+                            "random-reserve-answer": {
+                                "label": "Đảo đáp án",
+                                "active": "Kích hoạt",
+                                "unactive": "Tắt"
+                            },
+                            "subject": {
+                                "title": "Môn học",
+                                "placeholder": "Chọn môn học",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "grade": {
+                                "title": "Lớp",
+                                "placeholder": "Chọn lớp",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "description": {
+                                "title": "Mô tả",
+                                "placeholder": "Vui lòng điền mô tả"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Xác nhận xóa task",
+                            "description": "Bạn có chắc chắn muốn xóa task này?",
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-classroom-exercise": {
+            "table": {
+                "title": "Danh sách Classroom Exercise",
+                "button-add": "Thêm mới",
+                "col": {
+                    "id": "Id",
+                    "classroom": "Lớp học",
+                    "exercise": "Task",
+                    "created-at": "Ngày tạo",
+                    "updated-at": "Ngày sửa",
+                    "action": "Hành động"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Tạo mới classroom exercise",
+                            "classroom": {
+                                "title": "Lớp học",
+                                "placeholder": "Chọn lớp học",
+                                "required": "Vui lòng chọn lớp học"
+                            },
+                            "exercise": {
+                                "title": "Task",
+                                "placeholder": "Chọn task",
+                                "required": "Vui lòng chọn task"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Tạo mới"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Cập nhật classroom exercise",
+                            "classroom": {
+                                "title": "Lớp học",
+                                "placeholder": "Chọn lớp học",
+                                "required": "Vui lòng chọn lớp học"
+                            },
+                            "exercise": {
+                                "title": "Task",
+                                "placeholder": "Chọn task",
+                                "required": "Vui lòng chọn task"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Xác nhận xóa classroom exercise",
+                            "description": "Bạn có chắc chắn muốn xóa classroom exercise này?",
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-subject": {
+            "table": {
+                "title": "Danh sách môn học",
+                "button-add": "Thêm mới",
+                "col": {
+                    "id": "Id",
+                    "name": "Tên môn học",
+                    "created-at": "Ngày tạo",
+                    "updated-at": "Ngày sửa",
+                    "action": "Hành động"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Tạo mới môn học",
+                            "name": {
+                                "title": "Tên môn học",
+                                "placeholder": "Nhập tên môn học",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Tạo mới"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Cập nhật môn học",
+                            "name": {
+                                "title": "Tên môn học",
+                                "placeholder": "Nhập tên môn học",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Xác nhận xóa môn học",
+                            "description": "Bạn có chắc chắn muốn xóa môn học này?",
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-grade": {
+            "table": {
+                "title": "Danh sách khối",
+                "button-add": "Thêm mới",
+                "col": {
+                    "id": "Id",
+                    "name": "Tên khối",
+                    "created-at": "Ngày tạo",
+                    "updated-at": "Ngày sửa",
+                    "action": "Hành động"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Tạo mới khối",
+                            "name": {
+                                "title": "Tên khối",
+                                "placeholder": "Nhập tên khối",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Tạo mới"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Cập nhật khối",
+                            "name": {
+                                "title": "Tên khối",
+                                "placeholder": "Nhập tên khối",
+                                "required": "Vui lòng không bỏ trống"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Xác nhận xóa khối",
+                            "description": "Bạn có chắc chắn muốn xóa khối này?",
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-history": {
+            "table": {
+                "title": "Danh sách lịch sử kết quả",
+                "col": {
+                    "id": "Id",
+                    "user": "Học sinh",
+                    "score": "Điểm",
+                    "classroom": "Lớp học",
+                    "exercise": "Task",
+                    "type": "Loại",
+                    "created-at": "Ngày tạo",
+                    "updated-at": "Ngày sửa",
+                    "action": "Hành động"
+                }
+            }
+        },
+        "admin-answer-history": {
+            "table": {
+                "title": "Danh sách lịch sử chọn đáp án",
+                "col": {
+                    "id": "Id",
+                    "user": "Học sinh",
+                    "question": "Câu hỏi",
+                    "answer": "Đáp án",
+                    "created-at": "Ngày tạo",
+                    "updated-at": "Ngày sửa",
+                    "action": "Hành động"
+                }
+            }
+        },
+        "admin-question": {
+            "table": {
+                "title": "Danh sách câu hỏi",
+                "button-add": "Thêm mới",
+                "col": {
+                    "id": "Id",
+                    "name": "Tên câu hỏi",
+                    "exercise": "Task",
+                    "type": "Loại",
+                    "created-at": "Ngày tạo",
+                    "updated-at": "Ngày sửa",
+                    "action": "Hành động"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Tạo mới câu hỏi",
+                            "name": {
+                                "title": "Tên câu hỏi"
+                            },
+                            "exercise": {
+                                "title": "Task",
+                                "placeholder": "Chọn task",
+                                "required": "Vui lòng chọn task"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Tạo mới"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Cập nhật câu hỏi",
+                            "name": {
+                                "title": "Tên câu hỏi"
+                            },
+                            "exercise": {
+                                "title": "Task",
+                                "placeholder": "Chọn task",
+                                "required": "Vui lòng chọn task"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Xác nhận xóa câu hỏi",
+                            "description": "Bạn có chắc chắn muốn xóa câu hỏi này?",
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-answer": {
+            "table": {
+                "title": "Danh sách đáp án",
+                "button-add": "Thêm mới",
+                "col": {
+                    "id": "Id",
+                    "name": "Tên đáp án",
+                    "question": "Câu hỏi",
+                    "created-at": "Ngày tạo",
+                    "updated-at": "Ngày sửa",
+                    "action": "Hành động"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Tạo mới đáp án",
+                            "name": {
+                                "title": "Tên đáp án"
+                            },
+                            "question": {
+                                "title": "Câu hỏi",
+                                "placeholder": "Chọn câu hỏi",
+                                "required": "Vui lòng chọn câu hỏi"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Tạo mới"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Cập nhật đáp án",
+                            "name": {
+                                "title": "Tên đáp án"
+                            },
+                            "question": {
+                                "title": "Câu hỏi",
+                                "placeholder": "Chọn câu hỏi",
+                                "required": "Vui lòng chọn câu hỏi"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Xác nhận xóa đáp án",
+                            "description": "Bạn có chắc chắn muốn xóa đáp án này?",
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-role": {
+            "table": {
+                "title": "Danh sách vai trò",
+                "button-add": "Thêm mới",
+                "col": {
+                    "id": "Id",
+                    "name": "Tên vai trò",
+                    "created-at": "Ngày tạo",
+                    "updated-at": "Ngày sửa",
+                    "action": "Hành động"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Tạo mới vai trò",
+                            "name": {
+                                "title": "Tên vai trò",
+                                "placeholder": "Nhập tên vai trò",
+                                "required": "Vui lòng nhập tên vai trò"
+                            },
+                            "permission": {
+                                "title": "Quyền hạn",
+                                "sub-title": "Các quyền hạn được phép cho vai trò này"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Tạo mới"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Cập nhật vai trò",
+                            "name": {
+                                "title": "Tên vai trò",
+                                "placeholder": "Nhập tên vai trò",
+                                "required": "Vui lòng nhập tên vai trò"
+                            },
+                            "permission": {
+                                "title": "Quyền hạn",
+                                "sub-title": "Các quyền hạn được phép cho vai trò này"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Xác nhận xóa vai trò",
+                            "description": "Bạn có chắc chắn muốn xóa vai trò này?",
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    }
+                }
+            }
+        },
+        "admin-permission": {
+            "table": {
+                "title": "Danh sách quyền hạn",
+                "button-add": "Thêm mới",
+                "col": {
+                    "id": "Id",
+                    "name": "Tên quyền hạn",
+                    "endpoint": "Endpoint",
+                    "method": "Method",
+                    "module": "Module",
+                    "created-at": "Ngày tạo",
+                    "updated-at": "Ngày sửa",
+                    "action": "Hành động"
+                },
+                "row": {
+                    "add": {
+                        "modal": {
+                            "title": "Tạo mới quyền hạn",
+                            "name": {
+                                "title": "Tên quyền hạn",
+                                "placeholder": "Nhập tên quyền hạn",
+                                "required": "Vui lòng nhập tên quyền hạn"
+                            },
+                            "endpoint": {
+                                "title": "Endpoint",
+                                "placeholder": "Nhập endpoint",
+                                "required": "Vui lòng nhập endpoint"
+                            },
+                            "method": {
+                                "title": "Method",
+                                "placeholder": "Chọn method",
+                                "required": "Vui lòng chọn method"
+                            },
+                            "module": {
+                                "title": "Thuộc module",
+                                "placeholder": "Chọn module",
+                                "required": "Vui lòng chọn module"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Tạo mới"
+                        }
+                    },
+                    "edit": {
+                        "modal": {
+                            "title": "Cập nhật quyền hạn",
+                            "name": {
+                                "title": "Tên quyền hạn",
+                                "placeholder": "Nhập tên quyền hạn",
+                                "required": "Vui lòng nhập tên quyền hạn"
+                            },
+                            "endpoint": {
+                                "title": "Endpoint",
+                                "placeholder": "Nhập endpoint",
+                                "required": "Vui lòng nhập endpoint"
+                            },
+                            "method": {
+                                "title": "Method",
+                                "placeholder": "Chọn method",
+                                "required": "Vui lòng chọn method"
+                            },
+                            "module": {
+                                "title": "Thuộc module",
+                                "placeholder": "Chọn module",
+                                "required": "Vui lòng chọn module"
+                            },
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    },
+                    "delete": {
+                        "pop": {
+                            "title": "Xác nhận xóa quyền hạn",
+                            "description": "Bạn có chắc chắn muốn xóa quyền hạn này?",
+                            "cancel": "Hủy",
+                            "submit": "Xác nhận"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

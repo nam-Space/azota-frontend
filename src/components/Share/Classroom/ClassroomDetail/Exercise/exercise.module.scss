@@ -1,0 +1,51 @@
+.wrapper {
+    border-top: 1px solid #d9d9d9;
+    text-align: left;
+    padding: 12px;
+}
+
+.search-create {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-create {
+    background: #68cc00;
+
+    &:hover {
+        background: #68cc00 !important;
+    }
+}
+
+.task {
+    margin-top: 20px;
+}
+
+.date-group {
+    margin-top: 20px;
+}
+
+.exercise-wrapper {
+    padding: 12px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.exercise-item {
+    display: flex;
+    cursor: pointer;
+    gap: 16px;
+    padding: 8px;
+    transition: all linear 0.15s;
+
+    &:hover {
+        background-color: #f1f5f9;
+    }
+}

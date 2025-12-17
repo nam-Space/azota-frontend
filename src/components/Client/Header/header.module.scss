@@ -1,0 +1,48 @@
+.header-container {
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background: #f1f5f9;
+    line-height: unset;
+}
+
+.bell-icon {
+    font-size: 20px;
+}
+.user-icon-item {
+    font-size: 18px;
+}
+
+.user-button-item {
+    width: 100%;
+    text-align: left;
+}
+
+.user-config {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.lang-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px;
+}
+
+.user {
+    display: flex;
+}
+
+.user-info {
+    margin-left: 4px;
+}
+
+.user-info-name {
+    font-weight: bold;
+}
