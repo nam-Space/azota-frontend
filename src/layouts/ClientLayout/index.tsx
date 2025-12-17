@@ -30,13 +30,13 @@ const ClientLayout = ({ children }: ClientLayoutProps) => {
     }, [dispatch])
 
     useEffect(() => {
-        if (isRefreshToken) {
+        if (errorRefreshToken) {
             localStorage.removeItem('access_token')
             message.error(errorRefreshToken);
             dispatch(setRefreshTokenAction({ status: false, message: "" }))
             router.push('/login');
         }
-    }, [isRefreshToken]);
+    }, [errorRefreshToken]);
 
     return (
         <Layout hasSider >

@@ -218,13 +218,13 @@ const AdminLayout = ({ children }: any) => {
     }, [dispatch])
 
     useEffect(() => {
-        if (isRefreshToken) {
+        if (errorRefreshToken) {
             localStorage.removeItem('access_token')
             message.error(errorRefreshToken);
             dispatch(setRefreshTokenAction({ status: false, message: "" }))
             router.push('/login');
         }
-    }, [isRefreshToken]);
+    }, [errorRefreshToken]);
 
     const handleLogout = async () => {
         const res = await callLogout();
