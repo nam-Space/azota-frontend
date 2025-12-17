@@ -17,37 +17,31 @@ export function middleware(req: NextRequest) {
     const token = req.cookies.get("refresh_token")?.value;
     const { pathname, locale } = req.nextUrl;
 
-    // ⛔ Ignore internal / browser / asset requests
+    // ⛔ Ignore internal / asset requests
     if (IGNORE_PREFIXES.some((p) => pathname.startsWith(p))) {
         return NextResponse.next();
     }
 
-    /**
-     * Normalize path (remove locale)
-     * '/'        -> '/'
-     * '/en/login'-> '/login'
-     */
-    const normalizedPath = locale
-        ? pathname.replace(`/${locale}`, "") || "/"
-        : pathname;
+    // 🔄 Normalize path (remove locale safely)
+    const localePrefix = locale ? `/${locale}` : "";
+    const normalizedPath =
+        locale && pathname.startsWith(localePrefix)
+            ? pathname.slice(localePrefix.length) || "/"
+            : pathname;
 
     const isPublicPage = PUBLIC_PATHS.some(
         (path) =>
             normalizedPath === path || normalizedPath.startsWith(path + "/")
     );
 
-    /**
-     * 🚫 NOT LOGIN → redirect login (bao gồm '/')
-     */
+    // 🚫 Not login → redirect login (bao gồm '/')
     if (!token && !isPublicPage) {
         const url = req.nextUrl.clone();
         url.pathname = locale ? `/${locale}/login` : "/login";
         return NextResponse.redirect(url);
     }
 
-    /**
-     * 🔐 LOGIN → không cho vào auth page
-     */
+    // 🔐 Logged in → block auth pages
     if (token && isPublicPage) {
         const url = req.nextUrl.clone();
         url.pathname = locale ? `/${locale}` : "/";
@@ -58,5 +52,5 @@ export function middleware(req: NextRequest) {
 }
 
 export const config = {
-    matcher: ["/:path*"], // ⭐ QUAN TRỌNG
+    matcher: ["/:path*"],
 };
