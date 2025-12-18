@@ -91,6 +91,7 @@ instance.interceptors.response.use(
                 error?.response?.data?.message ??
                 "Có lỗi xảy ra, vui lòng login.";
             //dispatch redux action
+            Cookies.remove("refresh_token");
             store.dispatch(setRefreshTokenAction({ status: true, message }));
         }
 
