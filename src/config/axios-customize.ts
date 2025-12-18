@@ -3,8 +3,12 @@ import { Mutex } from "async-mutex";
 import axiosClient from "axios";
 import { store } from "@/redux/store";
 import { setRefreshTokenAction } from "@/redux/slice/accountSlide";
+import Cookies from "js-cookie";
+import ms from "ms";
+
 interface AccessTokenResponse {
     access_token: string;
+    refresh_token: string;
 }
 
 /**
@@ -24,8 +28,14 @@ const handleRefreshToken = async (): Promise<string | null> => {
         const res = await instance.get<IBackendRes<AccessTokenResponse>>(
             "/api/v1/auth/refresh"
         );
-        if (res && res.data) return res.data.access_token;
-        else return null;
+        if (res && res.data) {
+            Cookies.set("refresh_token", res.data.refresh_token, {
+                expires:
+                    +ms(process.env.NEXT_PUBLIC_COOKIE_EXPIRE as any) /
+                    86400000,
+            });
+            return res.data.access_token;
+        } else return null;
     });
 };
 

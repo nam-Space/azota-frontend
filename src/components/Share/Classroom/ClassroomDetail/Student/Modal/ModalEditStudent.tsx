@@ -15,6 +15,8 @@ import { useAppDispatch, useAppSelector } from "@/redux/hooks";
 import { setUserLoginInfo } from "@/redux/slice/accountSlide";
 import { DebounceSelect } from "@/components/Share/DebounceSelect";
 import { FormattedMessage, useIntl } from "react-intl";
+import Cookies from "js-cookie";
+import ms from "ms";
 
 interface IProps {
     openModal: boolean;
@@ -86,6 +88,11 @@ const ModalEditStudent = (props: IProps) => {
             if (res.data) {
                 const resTmp = await callRefreshToken();
                 if (resTmp.data) {
+                    Cookies.set("refresh_token", resTmp.data.refresh_token, {
+                        expires:
+                            +ms(process.env.NEXT_PUBLIC_COOKIE_EXPIRE as any) /
+                            86400000,
+                    });
                     localStorage.setItem('access_token', resTmp.data.access_token);
                     dispatch(setUserLoginInfo(resTmp.data.user))
                     message.success("Cập nhật user thành công");
