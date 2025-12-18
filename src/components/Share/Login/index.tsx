@@ -8,6 +8,8 @@ import { useRouter } from 'next/router';
 import Link from 'next/link';
 import { FormattedMessage, useIntl } from 'react-intl';
 import { VI } from '@/constants/language';
+import Cookies from 'js-cookie';
+import ms from 'ms';
 
 const Login = () => {
     const router = useRouter();
@@ -28,6 +30,11 @@ const Login = () => {
         const res = await callLogin(username, password);
         setIsSubmit(false);
         if (res?.data) {
+            Cookies.set("refresh_token", res.data.refresh_token, {
+                expires:
+                    +ms(process.env.NEXT_PUBLIC_COOKIE_EXPIRE as any) /
+                    86400000,
+            });
             localStorage.setItem('access_token', res.data.access_token);
             dispatch(setUserLoginInfo(res.data.user))
             message.success('Đăng nhập tài khoản thành công!');
