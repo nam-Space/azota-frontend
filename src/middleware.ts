@@ -22,10 +22,7 @@ export function middleware(req: NextRequest) {
     const token = req.cookies.get("refresh_token")?.value;
     const { pathname } = req.nextUrl;
 
-    // ✅ QUAN TRỌNG: bỏ qua request data của Next.js
-    if (pathname.startsWith("/_next/data")) {
-        return NextResponse.next();
-    }
+    console.log("COOKIES:", req.cookies.getAll());
 
     // ⛔ Ignore asset / internal
     if (IGNORE_PREFIXES.some((p) => pathname.startsWith(p))) {
