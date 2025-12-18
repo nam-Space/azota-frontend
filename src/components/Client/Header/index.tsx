@@ -17,6 +17,7 @@ import { getUserAvatar } from '@/utils/imageUrl';
 import { ADMIN } from '@/constants/role';
 import { FormattedMessage } from 'react-intl';
 import { VI } from '@/constants/language';
+import Cookies from 'js-cookie';
 
 const { Header } = Layout;
 
@@ -35,6 +36,7 @@ const HeaderClient = () => {
     const handleLogout = async () => {
         const res = await callLogout();
         if (res && res.data) {
+            Cookies.remove('refresh_token');
             dispatch(setLogoutAction({}))
             message.success('Đăng xuất thành công');
             router.push('/login')

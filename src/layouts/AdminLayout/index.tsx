@@ -24,6 +24,7 @@ import enImg from '@/images/header/language/en.svg'
 import styles from './adminLayout.module.scss'
 import { FormattedMessage } from 'react-intl';
 import { VI } from '@/constants/language';
+import Cookies from 'js-cookie';
 
 const { Footer, Sider } = Layout;
 
@@ -236,6 +237,7 @@ const AdminLayout = ({ children }: any) => {
     const handleLogout = async () => {
         const res = await callLogout();
         if (res && res.data) {
+            Cookies.remove('refresh_token');
             dispatch(setLogoutAction({}));
             message.success('Đăng xuất thành công');
             router.push('/login')
