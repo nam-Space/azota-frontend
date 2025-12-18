@@ -13,7 +13,7 @@ const IGNORE_PREFIXES = [
     "/.well-known",
 ];
 
-// 🔥 Strip locale an toàn (vi | en)
+// Strip locale (vi | en)
 function normalizePath(pathname: string) {
     return pathname.replace(/^\/(vi|en)(\/|$)/, "/") || "/";
 }
@@ -22,7 +22,12 @@ export function middleware(req: NextRequest) {
     const token = req.cookies.get("refresh_token")?.value;
     const { pathname } = req.nextUrl;
 
-    // ⛔ Ignore internal / asset requests
+    // ✅ QUAN TRỌNG: bỏ qua request data của Next.js
+    if (pathname.startsWith("/_next/data")) {
+        return NextResponse.next();
+    }
+
+    // ⛔ Ignore asset / internal
     if (IGNORE_PREFIXES.some((p) => pathname.startsWith(p))) {
         return NextResponse.next();
     }
@@ -34,18 +39,14 @@ export function middleware(req: NextRequest) {
             normalizedPath === path || normalizedPath.startsWith(path + "/")
     );
 
-    /**
-     * 🚫 CHƯA LOGIN → redirect login (bao gồm '/')
-     */
+    // 🚫 Chưa login → redirect login
     if (!token && !isPublicPage) {
         const url = req.nextUrl.clone();
-        url.pathname = "/login"; // ⛔ KHÔNG gắn locale
+        url.pathname = "/login";
         return NextResponse.redirect(url);
     }
 
-    /**
-     * 🔐 ĐÃ LOGIN → không cho vào auth pages
-     */
+    // 🔐 Đã login → cấm auth pages
     if (token && isPublicPage) {
         const url = req.nextUrl.clone();
         url.pathname = "/";
