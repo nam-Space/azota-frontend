@@ -233,6 +233,32 @@ npm run build
 
 ---
 
+## 🚀 Một số giao diện chính
+
+### Giao diện trang chủ
+<img width="1918" height="1079" alt="image" src="https://github.com/user-attachments/assets/0084538a-c9b2-4f04-a870-4f19f59ff92e" />
+
+### Giao diện bài tập
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/4febc4d2-d8c5-4f23-ac1c-a2eb94f73c64" />
+
+### Giao diện đề thi
+<img width="1918" height="1079" alt="image" src="https://github.com/user-attachments/assets/1381efa8-2092-48c6-adff-7a3d72743479" />
+
+### Giao diện danh sách lớp học
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/624bb627-78bf-4d6f-a19a-cc26647665f2" />
+
+### Giao diện lớp học chi tiết
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/dd0cfbe1-e1e1-417e-a0df-818f7df0c44d" />
+
+### Giao diện làm bài trắc nghiệm
+<img width="1915" height="1079" alt="image" src="https://github.com/user-attachments/assets/fe586a30-a22f-4399-ac2c-fe0adb280997" />
+
+### Giao diện kết quả
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/024121eb-97dd-410f-ac60-16b1e95a9b8c" />
+
+
+---
+
 ## 🔮 Hướng phát triển tương lai
 
 -   Countdown timer khi làm bài
